@@ -10452,10 +10452,11 @@ MonoBehaviour:
   - {fileID: 811346294}
   - {fileID: 1660347914}
   hasGrenade: 0
+  grenadeObj: {fileID: 5074094896536861977, guid: 19f9f140d87e5d34eab7c84892293bd8, type: 3}
+  followCamera: {fileID: 963194227}
   ammo: 0
   coin: 0
   health: 100
-  followCamera: {fileID: 963194227}
   maxAmmo: 0
   maxCoin: 99999
   maxHealth: 100
