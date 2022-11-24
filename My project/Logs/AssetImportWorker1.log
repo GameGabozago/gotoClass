@@ -15,7 +15,7 @@ C:/Users/YOONHA/GitHub/gotoClass/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-12986
+13822
 Successfully changed project path to: C:/Users/YOONHA/GitHub/gotoClass/My project
 C:/Users/YOONHA/GitHub/gotoClass/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/YOONHA/GitHub/gotoClass/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 181.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 177.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.039531 seconds.
+Registered in 0.027858 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 234.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 135.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.770 seconds
+- Completed reload, in  1.097 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1771ms)
-		BeginReloadAssembly (286ms)
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1184ms)
-			LoadAssemblies (274ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (200ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (720ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (391ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (235ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.032230 seconds.
+Registered in 0.020506 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\YOONHA\GitHub\gotoClass\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\YOONHA\GitHub\gotoClass\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.168 seconds
+- Completed reload, in  1.896 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4170ms)
-		BeginReloadAssembly (351ms)
+	ReloadAssembly (1897ms)
+		BeginReloadAssembly (244ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (3448ms)
-			LoadAssemblies (335ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1417ms)
+			LoadAssemblies (233ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (673ms)
+			SetupTypeCache (423ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (139ms)
-			SetupLoadedEditorAssemblies (2239ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (646ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (335ms)
-				ProcessInitializeOnLoadAttributes (1753ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (39ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (42ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3578 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4042.
 Memory consumption went from 144.6 MB to 143.2 MB.
-Total: 6.041700 ms (FindLiveObjects: 0.399600 ms CreateObjectMapping: 0.334200 ms MarkObjects: 4.799400 ms  DeleteObjects: 0.506700 ms)
+Total: 5.074200 ms (FindLiveObjects: 0.420000 ms CreateObjectMapping: 0.324000 ms MarkObjects: 3.977300 ms  DeleteObjects: 0.351300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,1644 +159,262 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 300.084172 seconds.
-  path: Assets/Village Resource/FBXs/House_2.FBX
-  artifactKey: Guid(f38bb4ff403127f4f9ade951618406ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Village Resource/FBXs/House_2.FBX using Guid(f38bb4ff403127f4f9ade951618406ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd4b2e1c2f93469446d29b1310b74be15') in 0.690884 seconds 
+  Time since last request: 2895.604559 seconds.
+  path: Assets/school/Prefabs/props/NewLayer 1.terrainlayer
+  artifactKey: Guid(23a3dc4f31d4a50459822807b1b41769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/NewLayer 1.terrainlayer using Guid(23a3dc4f31d4a50459822807b1b41769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7a776460fa29db9ebef169e73e38a0') in 0.203465 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/Tiled Floor.prefab
-  artifactKey: Guid(51d3051b1d589214e960ae74c8933521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/Tiled Floor.prefab using Guid(51d3051b1d589214e960ae74c8933521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c52e71ecac30d7dc43635e5a78f5d858') in 0.101806 seconds 
+  Time since last request: 418.579856 seconds.
+  path: Assets/Village Resource/FBXs/House_3.FBX
+  artifactKey: Guid(f5d31dabf7e1fa3439017135f2d63d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village Resource/FBXs/House_3.FBX using Guid(f5d31dabf7e1fa3439017135f2d63d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc0714a631dc5261e1d0bec9b3218a1') in 0.515348 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs
-  artifactKey: Guid(1e8192f35a44301488ec0f072d9a16fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs using Guid(1e8192f35a44301488ec0f072d9a16fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1ab0baeb43927f7033cd8945e602159d') in 0.089942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Rustic Wood.png
-  artifactKey: Guid(a0e0457c9788feb4f989fdc5b6977fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Rustic Wood.png using Guid(a0e0457c9788feb4f989fdc5b6977fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8547f9766724c2fb8bc151695a3a3a58') in 0.225718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Village Resource/Textures/Terrain.jpg
-  artifactKey: Guid(f354f8c88e562804082473a7d98ef087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Village Resource/Textures/Terrain.jpg using Guid(f354f8c88e562804082473a7d98ef087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b042b17b9359afc9767afee2e56486aa') in 0.152869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(8afc41c378f89874f9a4d4a49d32be15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/New Terrain 1.asset using Guid(8afc41c378f89874f9a4d4a49d32be15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '46be47088326d1c7ead94181bc6bf872') in 0.094183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Staricases_01_Setup.prefab
-  artifactKey: Guid(50ce1d3cebd78214e839f75e8796a39b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Staricases_01_Setup.prefab using Guid(50ce1d3cebd78214e839f75e8796a39b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9a3fbc08ec5d88ae1cad00b9044eeb58') in 0.138860 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat
+  artifactKey: Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat using Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5950e7cf91d897c320a0eb71b94db2') in 0.580327 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000094 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/Openingwindow 1.anim
-  artifactKey: Guid(2c99a5e23d89e6d4f9019650e3b3776a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/Openingwindow 1.anim using Guid(2c99a5e23d89e6d4f9019650e3b3776a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04ec2566c80e6a47a5fd5eeb68afd04a') in 0.100120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Ext_BA_01.png
-  artifactKey: Guid(557d00f8839f23f4d9300672c1aa5d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Ext_BA_01.png using Guid(557d00f8839f23f4d9300672c1aa5d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55ac087667756693df1b29533dca0996') in 0.219805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_02.prefab
-  artifactKey: Guid(d6b5de5048b779b49847795dabf2dd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_02.prefab using Guid(d6b5de5048b779b49847795dabf2dd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f65f4056b4cf9addd6c736ccb4604f60') in 0.109808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab
-  artifactKey: Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab using Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fdc65f748232f1ed3fb3a613fac6a7ae') in 0.142714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Village Resource/FBXs/House_1.FBX
-  artifactKey: Guid(f83c8df1cd62b2e429d44f261a0f5638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Village Resource/FBXs/House_1.FBX using Guid(f83c8df1cd62b2e429d44f261a0f5638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4915346e6ac6f53f9d9d93cbd84d6fe0') in 0.193734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Ext_Apt_WallFloor_01_N.png
-  artifactKey: Guid(0291337013d67bd4ca83920be0c11749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Ext_Apt_WallFloor_01_N.png using Guid(0291337013d67bd4ca83920be0c11749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '914bd9014f267f406ff71ec6ae6ab1aa') in 0.216758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_DD_01.prefab
-  artifactKey: Guid(226aa234041d2be48881aab9632ea78e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_DD_01.prefab using Guid(226aa234041d2be48881aab9632ea78e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2910d2c9c18e82d946ac211ee6f16a37') in 0.094444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Blender_01_N.png
-  artifactKey: Guid(a192ea0e9f5170a4a8b4ec9cd0f592ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Blender_01_N.png using Guid(a192ea0e9f5170a4a8b4ec9cd0f592ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd134d91ea7d7cf50e775e00674326a6c') in 0.128493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Painting.fbx
-  artifactKey: Guid(27b4045e9d44110428f91ffc9297b5f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Painting.fbx using Guid(27b4045e9d44110428f91ffc9297b5f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '801f294dea941d0163b3bf4827aa45db') in 0.134686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/CounterTop_01.mat
-  artifactKey: Guid(656eb32607aaaed4590ee8c05d00282f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/CounterTop_01.mat using Guid(656eb32607aaaed4590ee8c05d00282f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a836a5397a9e96d0405f76b873294d5d') in 0.295115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_MirrorFrame_01.prefab
-  artifactKey: Guid(252461d3f6f63ab4893c8eb882ee2be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_MirrorFrame_01.prefab using Guid(252461d3f6f63ab4893c8eb882ee2be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f651c586d74740d9338f7592a410baed') in 0.101004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Village Resource/FBXs/Tree_orange.FBX
-  artifactKey: Guid(42d0c77f7e021f64ebc34557c4ad0103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Village Resource/FBXs/Tree_orange.FBX using Guid(42d0c77f7e021f64ebc34557c4ad0103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '79068804dd57c04b8eb93b8a5a19ba53') in 0.127083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Toothbrush_01_A.png
-  artifactKey: Guid(4ab40b3a4ff0b7a48a1090e232aa80b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Toothbrush_01_A.png using Guid(4ab40b3a4ff0b7a48a1090e232aa80b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2219a2d56201b8dbc7563e8c6efba398') in 0.110894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Mirror.mat
-  artifactKey: Guid(bbc4e18e895e99a468291c41300b3f55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Mirror.mat using Guid(bbc4e18e895e99a468291c41300b3f55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '12e769c9732cf814f00d2ba147d16d5f') in 0.071933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_02.prefab
-  artifactKey: Guid(0d7e3cbd2cdf2e7428aa62ff7966b1ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_02.prefab using Guid(0d7e3cbd2cdf2e7428aa62ff7966b1ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c3880aa332e0ed1faa7161a9423ef75e') in 0.081906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_01.prefab
-  artifactKey: Guid(09457ce18601f204cbd5799ff191ff9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_01.prefab using Guid(09457ce18601f204cbd5799ff191ff9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fd8dd869f1ffbd533701848b23023dd3') in 0.083824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Floor_01.prefab
-  artifactKey: Guid(44c2c1ab745c05740b134b9f0487d99b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Floor_01.prefab using Guid(44c2c1ab745c05740b134b9f0487d99b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fc7d2f32f0dbc03b1841430d3581d905') in 0.064133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Brick 02 Mute Texture.png
-  artifactKey: Guid(4ecef430efc993d4f807f6b076c16aca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Brick 02 Mute Texture.png using Guid(4ecef430efc993d4f807f6b076c16aca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '800e25ffb98f536a0b0b0bba8634cc9c') in 0.078712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Frame_Apt_02.prefab
-  artifactKey: Guid(339af60aba47cba459f763bee7ddb43f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Frame_Apt_02.prefab using Guid(339af60aba47cba459f763bee7ddb43f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cf8ce94d043cf0acc5bbb553a4700927') in 0.073283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Fabric_01_White.mat
-  artifactKey: Guid(7f1d2f122bc99854b95672cfb7d080fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Fabric_01_White.mat using Guid(7f1d2f122bc99854b95672cfb7d080fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e1f026943d57cf38be01bd5b352ea6d8') in 0.334013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Wall_02.prefab
-  artifactKey: Guid(2a316e236f1c5504baf1ef31847a4658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Wall_02.prefab using Guid(2a316e236f1c5504baf1ef31847a4658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3c29463bffbb2aa4ebbceb46b674acb0') in 0.101450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Concrete_A.png
-  artifactKey: Guid(04bdf3eac1ea0c04ebb541a4883a827f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Concrete_A.png using Guid(04bdf3eac1ea0c04ebb541a4883a827f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f3806552b72a94f1e227625e97cc532e') in 0.092481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_4x4.prefab
-  artifactKey: Guid(c83e0dcf64994e249a7357b1eb31da5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_4x4.prefab using Guid(c83e0dcf64994e249a7357b1eb31da5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '049ac3838277765b53dffc4572871626') in 0.068609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/TowelRack_Apt_01.prefab
-  artifactKey: Guid(0c194d566209b524bb98efa3b5f1563e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/TowelRack_Apt_01.prefab using Guid(0c194d566209b524bb98efa3b5f1563e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c9d5b7875ca157adeec073edecfb1756') in 0.081667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Vase.fbx
-  artifactKey: Guid(2b4a2d31e35c5ce4cacda7ea46d6d187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Vase.fbx using Guid(2b4a2d31e35c5ce4cacda7ea46d6d187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '44f2ba2e2c9ba08b857bd38f2a9954af') in 0.129366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/TableFlip
-  artifactKey: Guid(7e045269bf051e64992c213333fb24ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/TableFlip using Guid(7e045269bf051e64992c213333fb24ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ff062e9448fe13419e82d18c30f2cf7c') in 0.040678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab
-  artifactKey: Guid(20fbfa03139c8c44185545f076543e47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab using Guid(20fbfa03139c8c44185545f076543e47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6d775221b9041a165b9f50b653a135ab') in 0.081019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01.prefab
-  artifactKey: Guid(85e9540880fc7824c8aff31eb2cc6498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01.prefab using Guid(85e9540880fc7824c8aff31eb2cc6498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e33d9d39f089e9af9e9d3421e776e8e8') in 0.080126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_02_Stacked.prefab
-  artifactKey: Guid(c442118e981d163429716195e7cade2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_02_Stacked.prefab using Guid(c442118e981d163429716195e7cade2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7230a70240820c9834ed043a6e2538bd') in 0.069399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_H.png
-  artifactKey: Guid(d891eeff6af0d2f41acb05df08dcaaa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_H.png using Guid(d891eeff6af0d2f41acb05df08dcaaa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '21f809d2c4b15ae7113c93c203e8d518') in 0.134627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BS_Texture_map_SE.png
-  artifactKey: Guid(5582ded7245c6074b9e3c52d0ee70c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BS_Texture_map_SE.png using Guid(5582ded7245c6074b9e3c52d0ee70c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '68a2909a520644ad7f402073b1b25b74') in 0.127856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_01.prefab
-  artifactKey: Guid(6d99fe7157190374995611275c238de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_01.prefab using Guid(6d99fe7157190374995611275c238de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15ba49889443c22afd7c041397c6f628') in 0.078057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/Opening 1.anim
-  artifactKey: Guid(d1c0db31e512c124cbc6f2a57b8bac2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/Opening 1.anim using Guid(d1c0db31e512c124cbc6f2a57b8bac2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '59e3ffb1d16e510fff80a95fb949a546') in 0.055706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed Metal_Chrome.mat
-  artifactKey: Guid(4580dd49916b3c542b97109c8ca425f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed Metal_Chrome.mat using Guid(4580dd49916b3c542b97109c8ca425f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6dbf02aad71aacc604e93831a866c6b0') in 0.072449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick 02.mat
-  artifactKey: Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick 02.mat using Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '94571f78e27f7c51dfa3337ab5db15f4') in 0.207727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_Stand_01.prefab
-  artifactKey: Guid(70c062c3a7500e7479c9797b6190948e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_Stand_01.prefab using Guid(70c062c3a7500e7479c9797b6190948e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '28b5838be3cd284b48d40b6bb6f8b097') in 0.083383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_H.png
-  artifactKey: Guid(79ef3e688a809c344a2810096ad448bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_H.png using Guid(79ef3e688a809c344a2810096ad448bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'df81e63649bf1c71a5e979a70d221c9d') in 0.104479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_03.prefab
-  artifactKey: Guid(f76f8084f4cb01349bb82ec41f49d28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_03.prefab using Guid(f76f8084f4cb01349bb82ec41f49d28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '97cdf2c06da811511f6f03cb58efd946') in 0.088745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Chessboard.mat
-  artifactKey: Guid(acb2ae4532d2c0c4a827a97b50b5c353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Chessboard.mat using Guid(acb2ae4532d2c0c4a827a97b50b5c353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b612d011d90ac48a3958dbe67d398b80') in 0.119962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Floors Ceilings/Int_RR_01_Floor_01.prefab
-  artifactKey: Guid(e30496263f7ba54488d5cb051756f667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Floors Ceilings/Int_RR_01_Floor_01.prefab using Guid(e30496263f7ba54488d5cb051756f667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c1254d610598f4933cb7f3d3dac0cf5c') in 0.073315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_01.prefab
-  artifactKey: Guid(4df090b3acce5624794706f81bcff9b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_01.prefab using Guid(4df090b3acce5624794706f81bcff9b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eca395e3628f4e0d2919381f227a2307') in 0.064955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy
-  artifactKey: Guid(f72c5fb4a441cf0499e2815a06ef852a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy using Guid(f72c5fb4a441cf0499e2815a06ef852a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd780a45f19f040e7ef3d04dcb0c6f194') in 0.051701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/keyboard_01_A.png
-  artifactKey: Guid(2af2cafff89413a43824ed34de8918fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/keyboard_01_A.png using Guid(2af2cafff89413a43824ed34de8918fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '95f95860df643d34955225c9e8f8cbfb') in 0.100048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/ControlPanel_apt.png
-  artifactKey: Guid(2595a59e4bb200a479cd18949ee5d090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/ControlPanel_apt.png using Guid(2595a59e4bb200a479cd18949ee5d090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '21853bd32cd9edba886f4db8bf3f4fbb') in 0.097035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide
-  artifactKey: Guid(4bb6243b32339bb4b8f2fc54307831eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide using Guid(4bb6243b32339bb4b8f2fc54307831eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '22c1e325baac02e924e6153cda49b40f') in 0.029036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Red_01.mat
-  artifactKey: Guid(fc572b7f1f43b3a42810a51f8c8ee969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Red_01.mat using Guid(fc572b7f1f43b3a42810a51f8c8ee969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6c04702d7e011f8849478b74ccab1936') in 0.064463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat
-  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6fce7f53f45f7389ed3bc3eb1dcae5da') in 0.191048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/White Wood_normal.png
-  artifactKey: Guid(aa20464592754c2418b9144bff0d1ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/White Wood_normal.png using Guid(aa20464592754c2418b9144bff0d1ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a789e780c3d864adb5dfd36822059b9f') in 0.108845 seconds 
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Colors_apt_01.mat
+  artifactKey: Guid(ef29f2ebae532ed4291b1e9ad9cc45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Colors_apt_01.mat using Guid(ef29f2ebae532ed4291b1e9ad9cc45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a1fa62a3f76c2ab84a68cc3f1aebc6') in 0.063405 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special/Ext_apt_01_02.prefab
-  artifactKey: Guid(ec6a508d43c319f4e9a29995ea6c3489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special/Ext_apt_01_02.prefab using Guid(ec6a508d43c319f4e9a29995ea6c3489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4c17302c1bf2c7b99c39f3cbcc501c2f') in 0.084828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab
-  artifactKey: Guid(544e2a3365ece1e428837232ca8b768d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab using Guid(544e2a3365ece1e428837232ca8b768d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'af292a1e0d2cb5f230ba4f5b0fc3e015') in 0.092923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/DrinkingGlass_01.prefab
-  artifactKey: Guid(8dfa0d45cd834394f8c62eec3b88c8c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/DrinkingGlass_01.prefab using Guid(8dfa0d45cd834394f8c62eec3b88c8c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '40d2d8d8f7e7c66caeff38c204edf3c7') in 0.081211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Pattern_03.png
-  artifactKey: Guid(bb0cfd11535504b46901d5b1cb1b403e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Pattern_03.png using Guid(bb0cfd11535504b46901d5b1cb1b403e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a7faad923e5b3b6e9ba0fe5d07258972') in 0.127020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_2x2.prefab
-  artifactKey: Guid(20e4763b1e1f5c340bd98eb80461ba0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_2x2.prefab using Guid(20e4763b1e1f5c340bd98eb80461ba0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '99bf6bcefa6c62d9eb49032a28588e1a') in 0.060565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Antique.mat
-  artifactKey: Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Antique.mat using Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '798604cd9685ebdb38c549747da0f638') in 0.051757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_2x2.prefab
-  artifactKey: Guid(fff70e8f691f38d41bbe035d6dc641df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_2x2.prefab using Guid(fff70e8f691f38d41bbe035d6dc641df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9ca1d76c5ae49751b686486ce2842675') in 0.090202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000675 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Wood_Ebony_01_AO.png
-  artifactKey: Guid(288cf7adf0d7df7428fd6de295b12e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Wood_Ebony_01_AO.png using Guid(288cf7adf0d7df7428fd6de295b12e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c95d1a3cdfb608b2062ad06e85eb5481') in 0.108307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Int_Apt_MarbleWall_01.mat
-  artifactKey: Guid(14caf24636c53854ea2f3f8ca2dd0fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Int_Apt_MarbleWall_01.mat using Guid(14caf24636c53854ea2f3f8ca2dd0fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1507228ef3d34aaea15c51d580c4f5d5') in 0.086779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Lamp 02 Ceiling - Normal.png
-  artifactKey: Guid(10caf55c2cc68ff45af37085395b0a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Lamp 02 Ceiling - Normal.png using Guid(10caf55c2cc68ff45af37085395b0a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '05587f7ca21b0216a4c703e48fd4fa75') in 0.076354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_03
-  artifactKey: Guid(64f5aa4e7797a1a4d88a81b4536ba6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_03 using Guid(64f5aa4e7797a1a4d88a81b4536ba6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '009ae735f99b50f816171641a5c06de5') in 0.044819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/LampShadeFabric_On.mat
-  artifactKey: Guid(625ca8b0c9507cd4d8685b336560db6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/LampShadeFabric_On.mat using Guid(625ca8b0c9507cd4d8685b336560db6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '12182ab79d4bd075df0ad2f6a62af447') in 0.096205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Village Resource/Textures/Road.bmp
-  artifactKey: Guid(f23c5e2182c484741bf8923d06151090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Village Resource/Textures/Road.bmp using Guid(f23c5e2182c484741bf8923d06151090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f3b88de614baa5e2994dc149d5a9c14') in 0.138771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass Wine Bottle 05.mat
-  artifactKey: Guid(faedf01a9e7977749a7798016f508081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass Wine Bottle 05.mat using Guid(faedf01a9e7977749a7798016f508081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8e9ae3e9c0c1ca470bfcc07ea4bf4c54') in 0.242779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits
-  artifactKey: Guid(e1df33c3547317b4781f62068dfd6146) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits using Guid(e1df33c3547317b4781f62068dfd6146) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a621e079b72f7ac8b9d4b0ae31257b5') in 0.052645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BrushedMetal_M.png
-  artifactKey: Guid(7d8b61015f4f2cc40a1c32a2791bfa3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BrushedMetal_M.png using Guid(7d8b61015f4f2cc40a1c32a2791bfa3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '74faddb0b08b62a552c731bb5771e521') in 0.112697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom
-  artifactKey: Guid(e6d6b914a5388164984fc1790d9a6af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom using Guid(e6d6b914a5388164984fc1790d9a6af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4b2638900168f1437bfb92d1f4bef778') in 0.043515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Art_04.png
-  artifactKey: Guid(93aed1f0d891f3440880dcc4154ccbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Art_04.png using Guid(93aed1f0d891f3440880dcc4154ccbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5fa871645872c90d7d413f5c2206dd13') in 0.098977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Concrete_N.png
-  artifactKey: Guid(5ef54bc528dd11344b45f3c8a9aed64b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Concrete_N.png using Guid(5ef54bc528dd11344b45f3c8a9aed64b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4120581ef88c8ad77479ebc4850afecf') in 0.091138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1
-  artifactKey: Guid(a507882f2594a614987bec9154c416e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1 using Guid(a507882f2594a614987bec9154c416e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'df01daea69a13bea0829149352e7203a') in 0.044567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt
-  artifactKey: Guid(9afd4e361873a3c418be8c5277bede65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt using Guid(9afd4e361873a3c418be8c5277bede65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15bc5cb243687082de0b92b0ed35d473') in 0.041826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/wine thin glass.fbx
-  artifactKey: Guid(09cb81f6ddeeb3046979371d041373b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/wine thin glass.fbx using Guid(09cb81f6ddeeb3046979371d041373b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd899d2028f32dbb25cba17f2c257eb78') in 0.105667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass Wine Bottle Wrapper 02.mat
-  artifactKey: Guid(5d5f7ba22899a774081673e045e96cc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass Wine Bottle Wrapper 02.mat using Guid(5d5f7ba22899a774081673e045e96cc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd90c72ccc658b30033924013ffa84197') in 0.051239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Fire/Candle Flame.prefab
-  artifactKey: Guid(76ba1ca0f3bd5de408854a87c409fe9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Fire/Candle Flame.prefab using Guid(76ba1ca0f3bd5de408854a87c409fe9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1426c6eb0122a34c55dd8beea7d716da') in 0.348409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Int into Ext/IntExt_apt_DoorFrame_L_01_01.prefab
-  artifactKey: Guid(0c61fe183d6f98d42a9b0250ecf21842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Int into Ext/IntExt_apt_DoorFrame_L_01_01.prefab using Guid(0c61fe183d6f98d42a9b0250ecf21842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b2621e7a422c2c963fb4918a9e23ce29') in 0.104002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/White Wine.mat
-  artifactKey: Guid(aceec14a00995924b88aec0853110efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/White Wine.mat using Guid(aceec14a00995924b88aec0853110efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cbeee7b682de09f5fca39093f93d6485') in 0.168610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/DoorMat_01_A.png
-  artifactKey: Guid(0db0ab6731c66044c84b00e0d891778e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/DoorMat_01_A.png using Guid(0db0ab6731c66044c84b00e0d891778e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cb9725feaec94e5e83b494e57226ef3e') in 0.138725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/FabricShadeGlow_N.png
-  artifactKey: Guid(3589673dae3d8704aac5304d2d3dcf2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/FabricShadeGlow_N.png using Guid(3589673dae3d8704aac5304d2d3dcf2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5faf7038bead1fe34820fe2253d75deb') in 0.094092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Wall_01.prefab
-  artifactKey: Guid(fb28b01c668360548b1caee1ee42ac7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Wall_01.prefab using Guid(fb28b01c668360548b1caee1ee42ac7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cc198310a0711e9d22b40885658665b5') in 0.094228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Mesh_Black_N.png
-  artifactKey: Guid(cbbecd88a198cdd4e8fc3f3e900a51ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Mesh_Black_N.png using Guid(cbbecd88a198cdd4e8fc3f3e900a51ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a58254d9e7a89e12caabc7243dc62aec') in 0.101318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/Shower_Base_01.prefab
-  artifactKey: Guid(75f68a1f4dd36214383ec174a8d8bf67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/Shower_Base_01.prefab using Guid(75f68a1f4dd36214383ec174a8d8bf67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd5a41b3f48b5e0e92e4b6045a5748a64') in 0.079072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_BathroomPaper.mat
-  artifactKey: Guid(59f4361ca0482dc47b43305e31892b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_BathroomPaper.mat using Guid(59f4361ca0482dc47b43305e31892b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '144557b952e924c7d9208c509d5a8fe2') in 0.113530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Chrome_01.mat
-  artifactKey: Guid(701dd7c589db913439e88caa8d11b7fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Chrome_01.mat using Guid(701dd7c589db913439e88caa8d11b7fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a306ff116a0f0a9d2b7428371189b497') in 0.094330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Controller Screen_01.mat
-  artifactKey: Guid(a89efc085b210d34fb9c6f0b7b0f669a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Controller Screen_01.mat using Guid(a89efc085b210d34fb9c6f0b7b0f669a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c41aa812892dc5d67b3cf5309550f6da') in 0.094790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs
-  artifactKey: Guid(b697b9be3c8d9534ebd171d2b41d6f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs using Guid(b697b9be3c8d9534ebd171d2b41d6f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd54cef6961e562d6a96fdbfcf8818fc2') in 0.033069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Cabinet_01.prefab
-  artifactKey: Guid(4fd059785718649499a344b0c22ecd22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Cabinet_01.prefab using Guid(4fd059785718649499a344b0c22ecd22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2cb0e8d86c61705f06cf9d1ea0b16dc0') in 0.069579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx
-  artifactKey: Guid(95cac277c5a04ef43add167566755e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx using Guid(95cac277c5a04ef43add167566755e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3f1e98d3f1a133be8e00bb8d5242431a') in 0.204246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_01.prefab
-  artifactKey: Guid(44297ac12129a474d89e1b2eb6151936) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_01.prefab using Guid(44297ac12129a474d89e1b2eb6151936) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '93af0cad69632ed1d15d9c03b75cb890') in 0.077087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_06.prefab
-  artifactKey: Guid(0267a6b41f222044f98d57dd7a4835fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_06.prefab using Guid(0267a6b41f222044f98d57dd7a4835fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fab96d7626e1d6da509dcc9e9062dce3') in 0.081135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Floor_01.prefab
-  artifactKey: Guid(3d085e6f9521f33418df246d3b5f694f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Floor_01.prefab using Guid(3d085e6f9521f33418df246d3b5f694f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e9433a457a387adc3486bd5769c9bdec') in 0.077722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Modern
-  artifactKey: Guid(3637a37e85dfa9a4089f0e0c7e1e7473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Modern using Guid(3637a37e85dfa9a4089f0e0c7e1e7473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '844dc9270b81c455cc07900893e42973') in 0.039687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BA_Ceiling Light_01.fbx
-  artifactKey: Guid(f10ecbc237630d9469cea29121d074f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BA_Ceiling Light_01.fbx using Guid(f10ecbc237630d9469cea29121d074f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd4b5c1b767bd7bbac172609a1e586912') in 0.130512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_BR_01.prefab
-  artifactKey: Guid(046ec50b8328aa54c96774a0cc973a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_BR_01.prefab using Guid(046ec50b8328aa54c96774a0cc973a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4b6be5123e79016b3aa406eb914bab38') in 0.088137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Int_BA_01.png
-  artifactKey: Guid(81996dc1d41eda84f9d6b55c50adea82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Int_BA_01.png using Guid(81996dc1d41eda84f9d6b55c50adea82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '556af06d58f6f64ab8c1d72c3ba24433') in 0.141284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000926 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior
-  artifactKey: Guid(c94cd9c1f94dcd04ebf68354fd64c462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior using Guid(c94cd9c1f94dcd04ebf68354fd64c462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8408914922664f963c4ec92fc334ab2c') in 0.038949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Lamp 02 Table.mat
-  artifactKey: Guid(ef49c0bd94883b4498c46a5c772544b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Lamp 02 Table.mat using Guid(ef49c0bd94883b4498c46a5c772544b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '84d36fdad1ac0a9cb26509465761172b') in 0.102260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Floor.png
-  artifactKey: Guid(ca6c7e19f0ffcd348961b68ecb61461c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Floor.png using Guid(ca6c7e19f0ffcd348961b68ecb61461c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '708257c5f9ca1ce82a1b7aeec360ce96') in 0.111916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet
-  artifactKey: Guid(ad87785502f96074d8c4ba05b3bec98e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet using Guid(ad87785502f96074d8c4ba05b3bec98e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '664dcde78be7950713e7ab74abf18e64') in 0.038243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/OpeningSlide.anim
-  artifactKey: Guid(e200fc53947c71a429e5e90215956f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/OpeningSlide.anim using Guid(e200fc53947c71a429e5e90215956f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e860083876734a0484683368d9ea4820') in 0.068297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding/Int_Molding_Base_Apt_01.prefab
-  artifactKey: Guid(f5711794550f9dc49ba65d9b63963e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding/Int_Molding_Base_Apt_01.prefab using Guid(f5711794550f9dc49ba65d9b63963e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1a1f757b5ae0d1e02505a5e81e5bc440') in 0.076224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene/BA_First Person Player.prefab
-  artifactKey: Guid(a9b081014bad86f4a80b60284279d21b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene/BA_First Person Player.prefab using Guid(a9b081014bad86f4a80b60284279d21b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7f95b693d4eaac92847ffe3445476c31') in 1.485281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Marble_Dark_01_N.png
-  artifactKey: Guid(46992959d77f88c4783fc144795e2ba4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Marble_Dark_01_N.png using Guid(46992959d77f88c4783fc144795e2ba4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5002eabaec696a7a2735386963e062eb') in 0.090877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/CorkScrew_02.prefab
-  artifactKey: Guid(8a6b0935376d783439e952c404e2e666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/CorkScrew_02.prefab using Guid(8a6b0935376d783439e952c404e2e666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6aca26ebaf521c49ac6542a6bb3a7402') in 0.083302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/office chair.prefab
-  artifactKey: Guid(99a0f1488ea2c1d47b7e9f7190961e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy/office chair.prefab using Guid(99a0f1488ea2c1d47b7e9f7190961e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '76b89a28a0b6e364bba19ac84f16d14c') in 0.085529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy/office chair.fbx
-  artifactKey: Guid(0156872a951ba6e44a3a8596040789c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy/office chair.fbx using Guid(0156872a951ba6e44a3a8596040789c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f73c0e89f4e06261e812edc69b7ca7b4') in 0.137895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_02.prefab
-  artifactKey: Guid(00c4356a751fbc5439abb629f6dc361e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_02.prefab using Guid(00c4356a751fbc5439abb629f6dc361e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ee54a3999e3806ed33629f6b291be2b1') in 0.074492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01
-  artifactKey: Guid(0621c9b8473e4f041b3999ecf010f0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01 using Guid(0621c9b8473e4f041b3999ecf010f0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '61d20fec14c360e1c28aaaaee937ccde') in 0.039323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Shiny Metal_04.mat
-  artifactKey: Guid(48852ed51db63954399f7facee033ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Shiny Metal_04.mat using Guid(48852ed51db63954399f7facee033ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '78bfb3d14ec0aa9feb887dabd91265d3') in 0.071170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Corner_01.prefab
-  artifactKey: Guid(5751082ea532e49478e631f5ff9a1cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Corner_01.prefab using Guid(5751082ea532e49478e631f5ff9a1cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7688899efa3c40b6200305fbbb0d1b1c') in 0.082818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Restroom/RR_RestroomPaper_A.png
-  artifactKey: Guid(00368d3a4678ecd4cb2b95551bfe744e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Restroom/RR_RestroomPaper_A.png using Guid(00368d3a4678ecd4cb2b95551bfe744e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2497e65c62da17e414e8af31dd8b850a') in 0.087016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_02.prefab
-  artifactKey: Guid(6ecb0bf6d9576ac4c9db5a24641bdf73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_02.prefab using Guid(6ecb0bf6d9576ac4c9db5a24641bdf73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b1046defe6a30fca49d1ec44f0148224') in 0.083532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Modern/Int_WallExtrude_01_01.prefab
-  artifactKey: Guid(6f3fdbc163e80234c908f27761c7c3a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Modern/Int_WallExtrude_01_01.prefab using Guid(6f3fdbc163e80234c908f27761c7c3a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e1d3e5c4a15e01aa4ad6ab67b54f390d') in 0.090461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_01_A.png
-  artifactKey: Guid(473e76b7fdb58724ab105d9d07528a63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_01_A.png using Guid(473e76b7fdb58724ab105d9d07528a63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e719229571bfc4b0e7d027a82c1b05ad') in 0.107250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat
-  artifactKey: Guid(65d72af2f614466478d9d8d8d7593b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat using Guid(65d72af2f614466478d9d8d8d7593b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '99731cc9d27c6abf1f836cbdd8bada4e') in 0.100628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_03/OcclusionCullingData.asset
-  artifactKey: Guid(6f115c79b71beb349b505585792bca70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_03/OcclusionCullingData.asset using Guid(6f115c79b71beb349b505585792bca70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '89b6a5f36bbb0d2701a850365b752398') in 0.086136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_03.prefab
-  artifactKey: Guid(0ef87058d11dd764abf30aefa470c526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_03.prefab using Guid(0ef87058d11dd764abf30aefa470c526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8c17aa14ad04cb26041cb63df69b96c') in 0.086186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Edge_01.prefab
-  artifactKey: Guid(6afcc4494dbad0147a4aec93839a9ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Edge_01.prefab using Guid(6afcc4494dbad0147a4aec93839a9ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7a8e02c80db72789d7430dd8045f029d') in 0.078116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat
-  artifactKey: Guid(c4633b4bc8d4dbb41bc32118f1812b6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat using Guid(c4633b4bc8d4dbb41bc32118f1812b6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9d61c6d1f21d12e0b41f58a85d45857d') in 0.082667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_02.prefab
-  artifactKey: Guid(dd6658866c1c65a4aa4a6c6e8e34e4f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_02.prefab using Guid(dd6658866c1c65a4aa4a6c6e8e34e4f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '63ad3489160bc0f498eecf90cd95fc8c') in 0.079922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_1x1.prefab
-  artifactKey: Guid(eba9a1ac29008234b8563dce8279a3c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_1x1.prefab using Guid(eba9a1ac29008234b8563dce8279a3c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e45fe62695dd8496523bd6ff50132e3b') in 0.081358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets
-  artifactKey: Guid(1fefdc64112392844841a44ee966f389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets using Guid(1fefdc64112392844841a44ee966f389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '513c9afacedf2f3a258fd19f6fafa0e0') in 0.039149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_A.png
-  artifactKey: Guid(519900fa9d01e9a43a245c4795c2170e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_A.png using Guid(519900fa9d01e9a43a245c4795c2170e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dedcabe49a9ede191937cbff6d81939b') in 0.064379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_2x2.prefab
-  artifactKey: Guid(2cf7605246c1a3c4a8bff50e0beb194b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_2x2.prefab using Guid(2cf7605246c1a3c4a8bff50e0beb194b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c9502cf934c15ebf9ef052b5ee036e89') in 0.077833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_N.png
-  artifactKey: Guid(58bfd504e106d80488fcbb9512c2fa31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_N.png using Guid(58bfd504e106d80488fcbb9512c2fa31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a77565232582283631b6ce17e9c877cc') in 0.106978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_03_Filled.prefab
-  artifactKey: Guid(3d51d280e33c5fe4c97ae593c2292997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_03_Filled.prefab using Guid(3d51d280e33c5fe4c97ae593c2292997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fbecb0634a38dd8cb504977c229f0b3a') in 0.097671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Rug_N.png
-  artifactKey: Guid(7f7b53da64f751048b47d48f41089031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Rug_N.png using Guid(7f7b53da64f751048b47d48f41089031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'daa52675d5c6fd63d191dac918760409') in 0.151401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_04.prefab
-  artifactKey: Guid(0d13d6d50c15b8147b1bf9fee7d1326d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_04.prefab using Guid(0d13d6d50c15b8147b1bf9fee7d1326d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '460f7d53242ed302a9ec779eb9ab609d') in 0.084171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx
-  artifactKey: Guid(39d59b6b89252814494c963f97ed892f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx using Guid(39d59b6b89252814494c963f97ed892f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6934c137bee827f1adccc3034dffd056') in 0.130745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_02.prefab
-  artifactKey: Guid(142ac07ac204863418a6f3f9b0ac660c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_02.prefab using Guid(142ac07ac204863418a6f3f9b0ac660c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '70e840a9d06fc84d178c9877ec822733') in 0.080663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BR_Tile_01_N.png
-  artifactKey: Guid(888976efb2fe9a643bb905012d649c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BR_Tile_01_N.png using Guid(888976efb2fe9a643bb905012d649c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dd37d57f2432e898274049a6cdc2ec28') in 0.081494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen
-  artifactKey: Guid(4052a93064f5b2c4ea9b0d7577e6ac73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen using Guid(4052a93064f5b2c4ea9b0d7577e6ac73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '25a3d8d189594d8d31a07e93d253e217') in 0.040479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Int into Ext/IntExt_apt_01_01.prefab
-  artifactKey: Guid(bb9f07d059873044e83eed13d1495a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Int into Ext/IntExt_apt_01_01.prefab using Guid(bb9f07d059873044e83eed13d1495a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '808f0e478bf849aedde2d72bf370b5d6') in 0.076628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Bowl_Apt_01_Stacked.prefab
-  artifactKey: Guid(143623a82f19a9e49b450142a80c6d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Bowl_Apt_01_Stacked.prefab using Guid(143623a82f19a9e49b450142a80c6d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '896611d33896e00ce92ed0be20a24bc5') in 0.072669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Painting_N.png
-  artifactKey: Guid(52a7d8c0d3423c946a76ebe65fb6dab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Painting_N.png using Guid(52a7d8c0d3423c946a76ebe65fb6dab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4b47807e2672bacee8ad8b9ea5bc433b') in 0.084025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_02.prefab
-  artifactKey: Guid(feb38e40cfc697547a18577613164676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_02.prefab using Guid(feb38e40cfc697547a18577613164676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2498490cc5a0ce906875b2b4e32c6ca6') in 0.076270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Int_Apt_03_N.png
-  artifactKey: Guid(c02994762ef6b4f42b74972ac7ff03f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Int_Apt_03_N.png using Guid(c02994762ef6b4f42b74972ac7ff03f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '746e2b7697e8395e2baec18b65809f73') in 0.175730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Lamp 02 Table shade.png
-  artifactKey: Guid(75236e1c6236b444d84fbc09afbf1ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Lamp 02 Table shade.png using Guid(75236e1c6236b444d84fbc09afbf1ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '377d79fc3fbaca5201c42290101cd95d') in 0.125792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrameDoor_01.prefab
-  artifactKey: Guid(eaaaafd5975a5d544a3d11507b3670ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrameDoor_01.prefab using Guid(eaaaafd5975a5d544a3d11507b3670ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'faedbd54268b58a182bf573be75358a8') in 0.096956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Corner_01.prefab
-  artifactKey: Guid(4ddec33f57bc4c74680f805d105aa0cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Corner_01.prefab using Guid(4ddec33f57bc4c74680f805d105aa0cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1359e2d31c06f3ea387e2cb445d2bfdf') in 0.089985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat
-  artifactKey: Guid(88b88f875cf0af442996954ba27bdf64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat using Guid(88b88f875cf0af442996954ba27bdf64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bbde78d10bf644b36148f7027c6c2896') in 0.063546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/Ext_Apt_01.mat
-  artifactKey: Guid(05ab6237a2436a34bb31bebcb35225c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/Ext_Apt_01.mat using Guid(05ab6237a2436a34bb31bebcb35225c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a555bf43eb150c8a084b0d6442bca599') in 0.305318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Collum/Int_Collum_Apt_02.prefab
-  artifactKey: Guid(316068d5ea092d0438b2f98b4f2df6a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Collum/Int_Collum_Apt_02.prefab using Guid(316068d5ea092d0438b2f98b4f2df6a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b760040ebe9f9aa9250464ded27bd28a') in 0.071157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Art_02.png
-  artifactKey: Guid(121839de2ecea004995db9f7c5645295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Art_02.png using Guid(121839de2ecea004995db9f7c5645295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'de571167a0a831628be2d27c2d96ae7e') in 0.087698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/WhiteDull.mat
-  artifactKey: Guid(ac3fc719b726a894c8420c2dfeb24547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/WhiteDull.mat using Guid(ac3fc719b726a894c8420c2dfeb24547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c6686d47a8376e5d6e465b5389af9aea') in 0.066893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures/Structure 01.prefab
-  artifactKey: Guid(49f576a03ece56a4e9c640ed081f6a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures/Structure 01.prefab using Guid(49f576a03ece56a4e9c640ed081f6a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '673df318ba61bb64b4309ea89323072d') in 0.663600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Table_End_02.prefab
-  artifactKey: Guid(28f3f85a3fb032b4cbee99b8dd59df44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Table_End_02.prefab using Guid(28f3f85a3fb032b4cbee99b8dd59df44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4158593c45a342ade8c33a8c9e11ebff') in 0.102926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models
-  artifactKey: Guid(0238337b50b4fb840b7948eada9f0c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models using Guid(0238337b50b4fb840b7948eada9f0c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6fff3ffdd4a7807ae1fe1910da4a5cad') in 0.037257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_03.prefab
-  artifactKey: Guid(f920163421f537643a94fbbfe25244f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_03.prefab using Guid(f920163421f537643a94fbbfe25244f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd1661468e7a07903145c8b77135eb2da') in 0.117672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/MirrorPlate_Filled Variant.prefab
-  artifactKey: Guid(c0474be4602986b4f9e6342b6b0817e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/MirrorPlate_Filled Variant.prefab using Guid(c0474be4602986b4f9e6342b6b0817e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6cbd63625d0951388d634bc52ab25116') in 0.152807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Mesh_Black.mat
-  artifactKey: Guid(c8a87a4e32c07864dabf944c9797ff12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Mesh_Black.mat using Guid(c8a87a4e32c07864dabf944c9797ff12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'abfcf918e01694f04db50d9a98cbf42f') in 0.118516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Dresser_Apt_01.prefab
-  artifactKey: Guid(3f38091ec14910c4c8b8af3bab31b1bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Dresser_Apt_01.prefab using Guid(3f38091ec14910c4c8b8af3bab31b1bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd5ee08de0aac13968ac5f6885db4fd8a') in 0.219974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Fire/Fire_Texture_02_ADD.tga
-  artifactKey: Guid(e3fbc8a570c365347b4caff594f25a12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Fire/Fire_Texture_02_ADD.tga using Guid(e3fbc8a570c365347b4caff594f25a12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a357992a2dbb3639d7a7d26613369a49') in 0.298387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture
-  artifactKey: Guid(21a0e291e1f508745aed1c49b27d5434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture using Guid(21a0e291e1f508745aed1c49b27d5434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f8394c0cf8340e785a9069c442547c79') in 0.058366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/openandclosewindow.controller
-  artifactKey: Guid(cee913081722036408a297a363171970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/openandclosewindow.controller using Guid(cee913081722036408a297a363171970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b56f3a3d89e38e94e576df5d3a920c6b') in 0.193808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Faucet_01.prefab
-  artifactKey: Guid(642a2cb4532c08a4db221317e2019f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Faucet_01.prefab using Guid(642a2cb4532c08a4db221317e2019f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '74bf1a306f5deee68d8b4fcf7668f80a') in 0.202426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001822 seconds.
-  path: Assets/school/Prefabs/props/a laptop.prefab
-  artifactKey: Guid(ec15f5ae191975f4d8de236356aaec36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/a laptop.prefab using Guid(ec15f5ae191975f4d8de236356aaec36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '99f70a1c509a6eeb4cad4d8aea267b57') in 0.201425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/school/Prefabs/props/locker2.prefab
-  artifactKey: Guid(5c2334af47df6454c9e2eaadbfaa2cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/locker2.prefab using Guid(5c2334af47df6454c9e2eaadbfaa2cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13909747d9ba4260ce9579cafe2fdef8') in 0.178943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/school/props/button.fbx
-  artifactKey: Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/button.fbx using Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '154df3fd4cc45217ec5bb8a94e7c7424') in 0.152780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/school/Prefabs/props/book16.prefab
-  artifactKey: Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/book16.prefab using Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd1ae8b5f4c002b0e3371953fe5db1f39') in 0.116526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/school/props/showcase.fbx
-  artifactKey: Guid(f368751ca30ac2647a4ec4ce8fed3c88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/showcase.fbx using Guid(f368751ca30ac2647a4ec4ce8fed3c88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0dd00e09072073ff7be507ff870f5bb0') in 0.123741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab
-  artifactKey: Guid(8b726a9375ea2e442aa068972abf0c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab using Guid(8b726a9375ea2e442aa068972abf0c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04c6a600f36b3bb39d87bb4b451ab061') in 0.086732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/school/props/tray.fbx
-  artifactKey: Guid(cc76c0b780396284a8d4e9fe8d4e7482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/tray.fbx using Guid(cc76c0b780396284a8d4e9fe8d4e7482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8e4d305403017d18388174f48235a15') in 0.143751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/school/props/board2.fbx
-  artifactKey: Guid(566a42721c548c54cb9bc534f063aab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/board2.fbx using Guid(566a42721c548c54cb9bc534f063aab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '26a9c5e7d142b94e4daff4ea754b1cd7') in 0.139351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Lamp 02 Ceiling.png
-  artifactKey: Guid(505ba2c4c448cba4a818067958271639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Lamp 02 Ceiling.png using Guid(505ba2c4c448cba4a818067958271639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '27700f255e00f186630529776d9ad391') in 0.097808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/school/props/jalousie.fbx
-  artifactKey: Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/jalousie.fbx using Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '65219516cb3452662d8b2593bcddab0f') in 0.171204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/school/Prefabs/props/board2_2 1.prefab
-  artifactKey: Guid(fe495e6bdadd4254199eb7ad0b26898d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/board2_2 1.prefab using Guid(fe495e6bdadd4254199eb7ad0b26898d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7171c194890d7dee110566ac4dd5e6f2') in 0.088068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/school/Prefabs/props/computer1.prefab
-  artifactKey: Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/computer1.prefab using Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4c8880f29aad792db7d183eabc4b9dd9') in 0.106895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/school/Prefabs/props/locker.prefab
-  artifactKey: Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/locker.prefab using Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c28584bae58457bab6b0ab054dadb2cb') in 0.123049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/school/DemoScene
-  artifactKey: Guid(8b61bb79be6daf84fb002396b9e16281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/DemoScene using Guid(8b61bb79be6daf84fb002396b9e16281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4bd5a87dd7e3cafd006dee1b18b54110') in 0.052780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/school/props/wall4 (1).fbx
-  artifactKey: Guid(e2c12cc399276f34997617080b02d780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/wall4 (1).fbx using Guid(e2c12cc399276f34997617080b02d780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f262f3961458ace097d13f6e48dedccc') in 0.135216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/school/props/book16.fbx
-  artifactKey: Guid(804dc1b5bcbda42449135bc1c93de072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/book16.fbx using Guid(804dc1b5bcbda42449135bc1c93de072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f3bd8c09210ec0fd1ad241c343d16c2d') in 0.101595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/school/props/locker_2.fbx
-  artifactKey: Guid(4961a98492915344fad8693ff35cc1e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/locker_2.fbx using Guid(4961a98492915344fad8693ff35cc1e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c2409635a14bfa15c468c27d9cd2738a') in 0.230015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/school/Prefabs/props/book1.prefab
-  artifactKey: Guid(f35bd34b33d70144ca22184a194ae6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/book1.prefab using Guid(f35bd34b33d70144ca22184a194ae6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'de746edde81764209c16fda03b4eff3b') in 0.094270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/school/Prefabs/props/locker_5.prefab
-  artifactKey: Guid(a0fb9817dd6493340b32e1c86fadfc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/locker_5.prefab using Guid(a0fb9817dd6493340b32e1c86fadfc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8a91c27c07eaf77ee85d159c5c3ca0d4') in 0.118741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/school/Prefabs/props/board2.prefab
-  artifactKey: Guid(a5387be5615ab204780e8b46f7b3a16e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/board2.prefab using Guid(a5387be5615ab204780e8b46f7b3a16e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '478a7d45d9a987742391e9987ce9586a') in 0.101859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/school/DemoScene/all_objects1_Profiles/PP Profile.asset
-  artifactKey: Guid(eb0c7f947126d924ebdcd292be9be7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/DemoScene/all_objects1_Profiles/PP Profile.asset using Guid(eb0c7f947126d924ebdcd292be9be7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eac10c81c668685d576a1a0ac5c05af3') in 0.231417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/school/Prefabs/props/wall4 (2).prefab
-  artifactKey: Guid(4af663313fdc5d04889a6710948329c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/wall4 (2).prefab using Guid(4af663313fdc5d04889a6710948329c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'aed4b0719c73b07f426ed22125fe347a') in 0.117607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/school/Prefabs/props/jalousie.prefab
-  artifactKey: Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/jalousie.prefab using Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6f8a8239b1fb579e452a98f1dd2783ac') in 0.110497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/school/props/book6.fbx
-  artifactKey: Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/book6.fbx using Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '53650505488774a372efd3e492b0d0fa') in 0.185998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/school/Prefabs
-  artifactKey: Guid(9074304b8a19c6748a559b50b1428855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs using Guid(9074304b8a19c6748a559b50b1428855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '69cad6e0755db266a79dbc16d6e046ea') in 0.088652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/school/Prefabs/props/locker1.prefab
-  artifactKey: Guid(7d65db92ee1ad5644a8177816885460b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/locker1.prefab using Guid(7d65db92ee1ad5644a8177816885460b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c76847f5ca5f4f196d52240717e08863') in 0.100977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/school/props/table3.fbx
-  artifactKey: Guid(0699d22803476344d956abf42dc88970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/table3.fbx using Guid(0699d22803476344d956abf42dc88970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bbd4eaa52f9cbd631c794d19022fafe2') in 0.161045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/school/material/Materials
-  artifactKey: Guid(7f0cc5bbcb8d137418bf5322cab36bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/material/Materials using Guid(7f0cc5bbcb8d137418bf5322cab36bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1c9a92f65faf13a80ced9a98d0ed787a') in 0.045848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/school/Prefabs/props/book9.prefab
-  artifactKey: Guid(d74135662f1cf2049b7ad36d7a117892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/book9.prefab using Guid(d74135662f1cf2049b7ad36d7a117892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'be18d6ea61e7709d17d71e301037e064') in 0.088391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/school/props/book.fbx
-  artifactKey: Guid(fe29f3a55c29a794a8d6a3d12b9aca96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/book.fbx using Guid(fe29f3a55c29a794a8d6a3d12b9aca96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6d4b5a8deda52bcc67d6bb06564cdbd5') in 0.143342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/school/Prefabs/props/sheet2.prefab
-  artifactKey: Guid(8e7a095165f9b1042be929150f3913f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/sheet2.prefab using Guid(8e7a095165f9b1042be929150f3913f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b56acb467d88cd60fd46a3958b8f6739') in 0.097820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001916 seconds.
-  path: Assets/school/Prefabs/props/book3.prefab
-  artifactKey: Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/book3.prefab using Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e2368a7c623c490f2b0c13b6c3b9d82e') in 0.099664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/school/Prefabs/props/board1.prefab
-  artifactKey: Guid(883fda0b73369fe41bc2ed262338a937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/board1.prefab using Guid(883fda0b73369fe41bc2ed262338a937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55a887b7bd73a50494cc4a8432479080') in 0.110931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/school/props/a door1.fbx
-  artifactKey: Guid(e7aacb82296e75c41acea0abba4c8978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/a door1.fbx using Guid(e7aacb82296e75c41acea0abba4c8978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e4342fcfa8b2e4318a530a60457c3731') in 0.188407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/school/props/fire1.fbx
-  artifactKey: Guid(9039d479f37a33c4a81362d04791c6b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/fire1.fbx using Guid(9039d479f37a33c4a81362d04791c6b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1867b14afe98a9a4cd03dad7f435de23') in 0.159586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/school/road/floor1.fbx
-  artifactKey: Guid(02ba308bed5cd924d888de16aa13d884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/road/floor1.fbx using Guid(02ba308bed5cd924d888de16aa13d884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b663a4d5cbd699413e488766d4374f07') in 0.122529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles
-  artifactKey: Guid(1ee7c6426dd29064ea3cef11cf1a1522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles using Guid(1ee7c6426dd29064ea3cef11cf1a1522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15ad2bf05889f5f0217e84f6f398e6c5') in 0.039857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/school/material/1.png
-  artifactKey: Guid(4b03c68dd480c5946acba6280c21b674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/material/1.png using Guid(4b03c68dd480c5946acba6280c21b674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e7c3f4c1ee53ae4524b799691593e465') in 0.062553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/school/props/chair1.fbx
-  artifactKey: Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/chair1.fbx using Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '255e25b0e291c55721d86bf81b0d5918') in 0.084600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/school/props/locker_3.fbx
-  artifactKey: Guid(2ef5cccbf9af996448903a637411876a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/locker_3.fbx using Guid(2ef5cccbf9af996448903a637411876a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bbd27a7d52bb3bae60e25bbf14c913bb') in 0.134944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/school/props/computer1.fbx
-  artifactKey: Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/computer1.fbx using Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7582b2851eb40f0f351016f96c0f6000') in 0.178679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/school/Prefabs/props/book4.prefab
-  artifactKey: Guid(e71f88c62ec6ec749b9da3c66033409a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/book4.prefab using Guid(e71f88c62ec6ec749b9da3c66033409a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f4a825aaa0d8ce7eea3a0eb141cdedcd') in 0.074201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/school/Prefabs/road/floor.prefab
-  artifactKey: Guid(405988af1bd38ee4fb92e86058b6c926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/road/floor.prefab using Guid(405988af1bd38ee4fb92e86058b6c926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7bee16e8e6d47507c893590b95bfc256') in 0.062396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/school/props/table1.fbx
-  artifactKey: Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/props/table1.fbx using Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e72270cfc6a99d4e68321c26a0fc3137') in 0.127481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/New Terrain 4.asset
-  artifactKey: Guid(9ececbbc18b007841acd0ffe83016004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/New Terrain 4.asset using Guid(9ececbbc18b007841acd0ffe83016004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '860776be69de83faa83074130c4074ef') in 0.094378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx
-  artifactKey: Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx using Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '09fdfd64dafdc5fb85eee321c6c49bd3') in 0.175328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Marble_Dark_01_M.png
-  artifactKey: Guid(0db03cdc963c4aa40ac6eb1f42684935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Marble_Dark_01_M.png using Guid(0db03cdc963c4aa40ac6eb1f42684935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '57429cd67cf2a82091795782bf424df2') in 0.200561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Dining_Apt_01.prefab
-  artifactKey: Guid(88eb65b4dea685a4cad7ad664104b001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Dining_Apt_01.prefab using Guid(88eb65b4dea685a4cad7ad664104b001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f0ab1fbf5973ca85eb6c74cf55d3be36') in 0.073056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001761 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab
-  artifactKey: Guid(cb533d6f7329a744fb5c0396de1b8b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab using Guid(cb533d6f7329a744fb5c0396de1b8b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '36ca0824cdfbd1b40ad62b88f9ee1210') in 0.120226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_01.prefab
-  artifactKey: Guid(74787c4efc3c48d48ba66f7b4a32b975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_01.prefab using Guid(74787c4efc3c48d48ba66f7b4a32b975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2039ba9ee3bf24a9867bb83938e7dba1') in 0.215939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire
-  artifactKey: Guid(4a8014ef20b900f46b698a159b6ffb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire using Guid(4a8014ef20b900f46b698a159b6ffb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13639b6f78350ff80384418e6db48453') in 0.070845 seconds 
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Colors_apt_02_A.png
+  artifactKey: Guid(d78d543570cf39449a8e89367decddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Colors_apt_02_A.png using Guid(d78d543570cf39449a8e89367decddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd5aa2a7ffa17243be1a27a5a05a3ed') in 0.079721 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000041 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames
-  artifactKey: Guid(33233f0716dd88343a635208cb699de1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames using Guid(33233f0716dd88343a635208cb699de1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b7325c9b07f3df386afe5b701a8f7679') in 0.078698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit
-  artifactKey: Guid(98ccdafb031a36b4f8c871f3a31f66ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit using Guid(98ccdafb031a36b4f8c871f3a31f66ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '66ab34953be5ec6d446620c37081984e') in 0.111229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures
-  artifactKey: Guid(d36557837af36e74792e22f4042f5744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures using Guid(d36557837af36e74792e22f4042f5744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'df361e33cfa561ae23a64a3b02f57eb1') in 0.144967 seconds 
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04.prefab
+  artifactKey: Guid(aa765da573f752d409b64961b914353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04.prefab using Guid(aa765da573f752d409b64961b914353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2145d9fa564d1e258362749bd070556c') in 0.204917 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_01.fbx
+  artifactKey: Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_01.fbx using Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b63386fee2ec2f18bf6c80c2047d831') in 0.788845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Antique.mat
+  artifactKey: Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Antique.mat using Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b042d2f471115e3578e636d13eefb56') in 0.053339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab
+  artifactKey: Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab using Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef12316f93a2e17f7b019e2db388ac6') in 0.727747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_03.prefab
+  artifactKey: Guid(00d829056aee4bb4e9ce54ff8b45aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_03.prefab using Guid(00d829056aee4bb4e9ce54ff8b45aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9bf72d49bf8851d52ef5070590fdaa') in 0.083289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_04.prefab
+  artifactKey: Guid(6723febf70d07b7469fbcddd65e8660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_04.prefab using Guid(6723febf70d07b7469fbcddd65e8660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96772af4d159866404839541e0d42dc9') in 0.548561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
   path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Adler Light Wood.mat
-  artifactKey: Guid(4e3472c094b8146469870886e7ccf1a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Adler Light Wood.mat using Guid(4e3472c094b8146469870886e7ccf1a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3a9c650f69d46afc140cde6742f2bcfb') in 0.537443 seconds 
+  artifactKey: Guid(4e3472c094b8146469870886e7ccf1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Adler Light Wood.mat using Guid(4e3472c094b8146469870886e7ccf1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d1e6884b343dc42f6a4512d71ffc22') in 0.062693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/ControlPanel_apt.png
+  artifactKey: Guid(2595a59e4bb200a479cd18949ee5d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/ControlPanel_apt.png using Guid(2595a59e4bb200a479cd18949ee5d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865faaa5963d15711e54dda4072dcb22') in 0.061262 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000054 seconds.
-  path: Assets/Village Resource/FBXs/box.FBX
-  artifactKey: Guid(a134d77b61653414ea1c4eb9ab861cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Village Resource/FBXs/box.FBX using Guid(a134d77b61653414ea1c4eb9ab861cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f0414aa2a6e7792e97c9e31c8a5c4880') in 0.223578 seconds 
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx
+  artifactKey: Guid(95cac277c5a04ef43add167566755e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx using Guid(95cac277c5a04ef43add167566755e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b596a5fa2a519011de9d61aaecec731b') in 0.666842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Head_01.prefab
-  artifactKey: Guid(708f360dca4c28243813704f811ad080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Head_01.prefab using Guid(708f360dca4c28243813704f811ad080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6e0a103de22a2f3b8779a43fcc3576ec') in 0.097067 seconds 
+  Time since last request: 0.000060 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab
+  artifactKey: Guid(20fbfa03139c8c44185545f076543e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab using Guid(20fbfa03139c8c44185545f076543e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f7a3c75ef09782c75e4dc29f767957') in 0.080697 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs
-  artifactKey: Guid(770aee30421368f4899e57b35481b2f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs using Guid(770aee30421368f4899e57b35481b2f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eab262a914ba905376bedb03192a85a2') in 0.045371 seconds 
+  Time since last request: 0.000059 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx
+  artifactKey: Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx using Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc50c80766da5d7742e6366254ec096c') in 0.551849 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/ceiling_normal.png
-  artifactKey: Guid(618a287d815fdfe4396cbe668c8296d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/ceiling_normal.png using Guid(618a287d815fdfe4396cbe668c8296d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f64bbe59d1c20ef5ca2b2c9d9989faf') in 0.086073 seconds 
+  Time since last request: 0.000055 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/CoffeeMaker_Apt_01.prefab
+  artifactKey: Guid(46bf299537dbcae4cbccff6784223305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/CoffeeMaker_Apt_01.prefab using Guid(46bf299537dbcae4cbccff6784223305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7892e54668946aa425810136942d3780') in 0.068575 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy
-  artifactKey: Guid(c2af272932c231a45a406dfa49ac027d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy using Guid(c2af272932c231a45a406dfa49ac027d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13d0d14cf652d59cea6c345dc16ab899') in 0.022280 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Tower.prefab
+  artifactKey: Guid(50f7395fbbcbfff47b55a68bd9ca5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Tower.prefab using Guid(50f7395fbbcbfff47b55a68bd9ca5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c9433a65faf8520d5c86cc26ca3055') in 0.078318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab
-  artifactKey: Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab using Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2667832b502c774fe89fa3ea842cfdd6') in 0.062179 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab
+  artifactKey: Guid(8b726a9375ea2e442aa068972abf0c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab using Guid(8b726a9375ea2e442aa068972abf0c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8d40ca7cc027e9997130b9a7250239') in 0.388441 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_3x3.prefab
-  artifactKey: Guid(7e9fb32cd7ac0de4c81c480a5478d86a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_3x3.prefab using Guid(7e9fb32cd7ac0de4c81c480a5478d86a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c4c18c5f188ea12d300758604d2cb231') in 0.064390 seconds 
+  Time since last request: 0.000255 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Colors_apt.png
+  artifactKey: Guid(a7a36494f99a45a4ba843833f39659a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Colors_apt.png using Guid(a7a36494f99a45a4ba843833f39659a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef7c0e4a172f4fefcc13468e8ae45be') in 0.061010 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special
-  artifactKey: Guid(3ebc6688b55257043963eb9761805ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special using Guid(3ebc6688b55257043963eb9761805ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4732c46f57ddae7ca45db24a3926599a') in 0.032982 seconds 
+  Time since last request: 0.000056 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_04.prefab
+  artifactKey: Guid(e7e7231ccdd4c2745a7aee5414cc2d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_04.prefab using Guid(e7e7231ccdd4c2745a7aee5414cc2d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e44946e66953858e26d56c96218b9d') in 0.088306 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Fabric_01_Blue.mat
-  artifactKey: Guid(0e43f5a20c0c0184da573df09c6c1d40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Fabric_01_Blue.mat using Guid(0e43f5a20c0c0184da573df09c6c1d40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '87583a281064a68d319eb5d13638557b') in 0.075394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat
-  artifactKey: Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat using Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '37c301e9fa146e070656ba7a0efa395f') in 0.145170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Brick 02 Texture.png
-  artifactKey: Guid(91e6f6bf45b72bd478b59dcf22714424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Brick 02 Texture.png using Guid(91e6f6bf45b72bd478b59dcf22714424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd7c5c7d48b116dfda5fe0de4f909fb31') in 0.083586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/Closingwindow.anim
-  artifactKey: Guid(6d03ded07380c2345bc09599eb0099b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/Closingwindow.anim using Guid(6d03ded07380c2345bc09599eb0099b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8f5ed9c25e478bf04cd832532ca71ad1') in 0.033216 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 111.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (1.3 MB). Loaded Objects now: 4045.
-Memory consumption went from 74.4 MB to 73.1 MB.
-Total: 24.331600 ms (FindLiveObjects: 2.464400 ms CreateObjectMapping: 1.850700 ms MarkObjects: 17.668400 ms  DeleteObjects: 2.340300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 211.599498 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png
-  artifactKey: Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png using Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dc0d5705a8d01cb0819d8ed98a8dec') in 0.235302 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_03.prefab
+  artifactKey: Guid(f3e82dc7c471ff447b3ca0e0bfded076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_03.prefab using Guid(f3e82dc7c471ff447b3ca0e0bfded076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1213decd9cd88795695b8b40ac9f2d30') in 0.076508 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000061 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay.png
-  artifactKey: Guid(a892bcc7ae1871447926b3c44d158763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay.png using Guid(a892bcc7ae1871447926b3c44d158763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f7c16bdfbadfc3803328d8ebfe0d77') in 0.136261 seconds 
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Center.prefab
+  artifactKey: Guid(8915be8858dae144eb1415e1fada3eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Center.prefab using Guid(8915be8858dae144eb1415e1fada3eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeb204c9fd9437d57ad04e8218f79ab') in 0.073555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png
-  artifactKey: Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png using Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5195de432063bb0a1624b9012cb5d3') in 0.058121 seconds 
+  Time since last request: 0.000081 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_01.prefab
+  artifactKey: Guid(bd82980ec0e466d48a84803eba02265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_01.prefab using Guid(bd82980ec0e466d48a84803eba02265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89d1b5112e09a2338e4be13a7ba725') in 0.079796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Base.prefab
+  artifactKey: Guid(929be27b7388507448e23941feba1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Base.prefab using Guid(929be27b7388507448e23941feba1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f3a99f358817aa4cc6a355b8ae017a') in 0.067327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_CenterTower.prefab
+  artifactKey: Guid(f0f8347ddc1d5ed4bb8d2379f9008300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_CenterTower.prefab using Guid(f0f8347ddc1d5ed4bb8d2379f9008300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd598101aa370552ac949a8876cbcd1') in 0.076792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_02.prefab
+  artifactKey: Guid(3a840935b4015fb44b4d247b6f257006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_02.prefab using Guid(3a840935b4015fb44b4d247b6f257006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abd2b07480fba306b43398d526ea25e') in 0.060320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_05.prefab
+  artifactKey: Guid(8b20f7b1c11009a4fb828bb33ad93690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_05.prefab using Guid(8b20f7b1c11009a4fb828bb33ad93690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac8d50a293e469ac6721480b5babdc2') in 0.079010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Village Resource/FBXs/box_2.FBX
+  artifactKey: Guid(7639d5889e8ab6044a92618e998dfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village Resource/FBXs/box_2.FBX using Guid(7639d5889e8ab6044a92618e998dfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ada545b9a2e7e4e296a3d84088b8eb') in 0.139137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Village Resource/FBXs/box.FBX
+  artifactKey: Guid(a134d77b61653414ea1c4eb9ab861cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village Resource/FBXs/box.FBX using Guid(a134d77b61653414ea1c4eb9ab861cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac51d21628e257bce99323cf8b4956b6') in 0.068177 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png
-  artifactKey: Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png using Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c53a503d0a07d079783b14582cd88c7') in 0.045481 seconds 
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx
+  artifactKey: Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx using Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb12ab481b5ec2f589dfe5d36318c045') in 0.717712 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.725849 seconds.
-  path: Assets/school/Prefabs/props/NewLayer.terrainlayer
-  artifactKey: Guid(24e54ad8ce648f7458f6ef5bcaf88201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/school/Prefabs/props/NewLayer.terrainlayer using Guid(24e54ad8ce648f7458f6ef5bcaf88201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3a2744d0eb689b4c104855045360d533') in 0.032095 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_02.prefab
+  artifactKey: Guid(6ecb0bf6d9576ac4c9db5a24641bdf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_02.prefab using Guid(6ecb0bf6d9576ac4c9db5a24641bdf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fe8140fc22acc3975541ad4e1c1b25') in 0.072922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Colors_apt_02_N.png
+  artifactKey: Guid(5ab1704465c86f547adfee08c8bf0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Colors_apt_02_N.png using Guid(5ab1704465c86f547adfee08c8bf0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ada6b788731db5bbfa688c3ebe8000') in 0.078454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Dresser_Apt_01.prefab
+  artifactKey: Guid(3f38091ec14910c4c8b8af3bab31b1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Dresser_Apt_01.prefab using Guid(3f38091ec14910c4c8b8af3bab31b1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540e2ca6a0f9e97f513c7a9f93c5bd3d') in 0.072166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_01.prefab
+  artifactKey: Guid(f65183ca19c1b4448a412998605b2216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_01.prefab using Guid(f65183ca19c1b4448a412998605b2216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4ee9d2ce7968c46a14dcc51264d04e') in 0.061133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab
+  artifactKey: Guid(544e2a3365ece1e428837232ca8b768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab using Guid(544e2a3365ece1e428837232ca8b768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56771caf7cfda712a527ddcde1620cfd') in 0.068092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02.prefab
+  artifactKey: Guid(86ae21e881865b04f8548c4edade5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02.prefab using Guid(86ae21e881865b04f8548c4edade5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ab986069b4d398b3fa96ae9f7f2101') in 0.096187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Rail.fbx
+  artifactKey: Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Rail.fbx using Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9e254a749e4a9dcdb8402e0bf72d84') in 0.101298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_05.prefab
+  artifactKey: Guid(fd67a8bb0f3907e4589fd38ca697c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_05.prefab using Guid(fd67a8bb0f3907e4589fd38ca697c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795f02fee90f4b887f907b412777f7ce') in 0.082681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx
+  artifactKey: Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx using Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cf2b3a80c3f021f1e7ac686cd12b6a') in 0.683989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.158088 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Sofa_Apt_02.prefab
+  artifactKey: Guid(266d5a1d00e2ac2479b93bdd1914ad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Sofa_Apt_02.prefab using Guid(266d5a1d00e2ac2479b93bdd1914ad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c95ed0b65d0e6d579666bb71f9a1a1') in 0.122302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_01.prefab
+  artifactKey: Guid(3f867dd7956e96f4a90edce652fc7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_01.prefab using Guid(3f867dd7956e96f4a90edce652fc7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3412bde5ee35a9553a12bbee4c82cd') in 0.098313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab
+  artifactKey: Guid(355f0f3f8c2463f4d8bed401784f063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab using Guid(355f0f3f8c2463f4d8bed401784f063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877610622b3deac367b5734807179b4d') in 0.821816 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

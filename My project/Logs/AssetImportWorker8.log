@@ -1,0 +1,301 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 7985 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/YOONHA/GitHub/gotoClass/My project
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+13822
+Successfully changed project path to: C:/Users/YOONHA/GitHub/gotoClass/My project
+C:/Users/YOONHA/GitHub/gotoClass/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 313.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/YOONHA/GitHub/gotoClass/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     3992 MB
+    Driver:   25.20.100.6471
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.030387 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 137.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1961ms)
+		BeginReloadAssembly (377ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1359ms)
+			LoadAssemblies (357ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (901ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020726 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\YOONHA\GitHub\gotoClass\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\YOONHA\GitHub\gotoClass\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.245 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2246ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1723ms)
+			LoadAssemblies (343ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (609ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3579 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4043.
+Memory consumption went from 145.0 MB to 143.6 MB.
+Total: 6.161300 ms (FindLiveObjects: 1.072800 ms CreateObjectMapping: 0.706600 ms MarkObjects: 3.716500 ms  DeleteObjects: 0.664300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3903.683257 seconds.
+  path: Assets/FREE Food Pack/Prefabs
+  artifactKey: Guid(eb202cfff01ff3b4781697ecfd3852ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Prefabs using Guid(eb202cfff01ff3b4781697ecfd3852ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5771e76ffe019c6c2d4cd28f8964525b') in 0.046863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 618.531336 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs
+  artifactKey: Guid(3311df2ab1633d845bde5691f2f600f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs using Guid(3311df2ab1633d845bde5691f2f600f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02f3029331a4f3af8c9fae58138ca1b') in 0.022181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.291619 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture
+  artifactKey: Guid(21a0e291e1f508745aed1c49b27d5434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture using Guid(21a0e291e1f508745aed1c49b27d5434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b065798e9fd41cb7663392b2a4ea7c64') in 0.022491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.873993 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room
+  artifactKey: Guid(53e140c5a0581424493108af1eb65836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room using Guid(53e140c5a0581424493108af1eb65836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ac1d0a622436923f77e4f5565d7a2b') in 0.021134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.711064 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Misc
+  artifactKey: Guid(a736afff634d1a440b7395f96e6bec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Misc using Guid(a736afff634d1a440b7395f96e6bec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d82f83a11bdc9185c644077c761c90c') in 0.020810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.206277 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit
+  artifactKey: Guid(98ccdafb031a36b4f8c871f3a31f66ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit using Guid(98ccdafb031a36b4f8c871f3a31f66ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48716ee6b02b5ad9d2d2a7863c3af821') in 0.021948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.439980 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors
+  artifactKey: Guid(c93f3d6e1c2f1e54ca29176954baccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors using Guid(c93f3d6e1c2f1e54ca29176954baccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041bfeddced411e70b4b6e1e2f097d96') in 0.020225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.816863 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings
+  artifactKey: Guid(423d5a3b369847047810505a9d407d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings using Guid(423d5a3b369847047810505a9d407d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649de14f8768d2a7c03a1c349048962a') in 0.019866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030258 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_01_Ceiling_01.prefab
+  artifactKey: Guid(3106a6f3c2fc2a547b55f8f47ff2e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_01_Ceiling_01.prefab using Guid(3106a6f3c2fc2a547b55f8f47ff2e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f450058c8a426fc03167de25937ec54') in 0.533386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_03_Floor_02.prefab
+  artifactKey: Guid(a210596d183602d4f9abc956ba791b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_03_Floor_02.prefab using Guid(a210596d183602d4f9abc956ba791b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf37c129c6cfad800107c99472b0520') in 0.150382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_02_Floor_02.prefab
+  artifactKey: Guid(e92372dbea850d64697e857ecae9484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_02_Floor_02.prefab using Guid(e92372dbea850d64697e857ecae9484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f54dcf8884bb0ab74290651e137023') in 0.038243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_03_Floor_01.prefab
+  artifactKey: Guid(57b8e39375d93984895e498850c28ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_03_Floor_01.prefab using Guid(57b8e39375d93984895e498850c28ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aafc050b5348f8ddb1c49c89393cb11') in 0.063505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.640398 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors
+  artifactKey: Guid(05b1d27ed0e85df44bee3c68530ab248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors using Guid(05b1d27ed0e85df44bee3c68530ab248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01932763d8f5ccc5685f19a096dcac10') in 0.028923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051850 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Frame_Apt_01.prefab
+  artifactKey: Guid(509ac6312e62e5743ae96298947599f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Frame_Apt_01.prefab using Guid(509ac6312e62e5743ae96298947599f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9bb306d48d0bf4afe976a5efa464e8') in 0.049841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Window_Frame_Apt_01.prefab
+  artifactKey: Guid(ff74a2d207593764ea3699571e28d00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Window_Frame_Apt_01.prefab using Guid(ff74a2d207593764ea3699571e28d00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a11d7fcee66e0c1799cd3b39cc026a1') in 0.139770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_Boarder_01.prefab
+  artifactKey: Guid(1948577c0f767a2438c3970962e5da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_Boarder_01.prefab using Guid(1948577c0f767a2438c3970962e5da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe7fdb5354593dc34ce2cd4bcca5862') in 0.065338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_EdgeRail_01.prefab
+  artifactKey: Guid(a32793c2d7a973541a705148244340ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_EdgeRail_01.prefab using Guid(a32793c2d7a973541a705148244340ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846f8bd57c5fd4427d4a1b9da00d7994') in 0.045884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.854020 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Pillar_1x1.prefab
+  artifactKey: Guid(7262bf6e31d2c3047abf1089a09b516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Pillar_1x1.prefab using Guid(7262bf6e31d2c3047abf1089a09b516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f672928d8d99ef29aa5c571078a7d96') in 0.062941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Wall_01.prefab
+  artifactKey: Guid(42f30c85f9e074e4eb17ea01048327d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Wall_01.prefab using Guid(42f30c85f9e074e4eb17ea01048327d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b433c3850576a8608aa51957f3c75ec8') in 0.090256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Wall_02.prefab
+  artifactKey: Guid(1b521e989c39fb544aaf387f9eda3db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Wall_02.prefab using Guid(1b521e989c39fb544aaf387f9eda3db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c752c77083ad91b4d69097f10cc56a40') in 0.047325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.078949 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameController_Apt_01_01.prefab
+  artifactKey: Guid(94e4c3350f88fe94ba5e156103abcf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameController_Apt_01_01.prefab using Guid(94e4c3350f88fe94ba5e156103abcf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7046101b002bbf6f6d4b157677cc8fe8') in 0.101554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Speaker Sub.prefab
+  artifactKey: Guid(484da822e5bb83b4281e1b99f942b4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Speaker Sub.prefab using Guid(484da822e5bb83b4281e1b99f942b4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e0b63d01b6efbc1502cd50e69fb5fe') in 0.063086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_Stand_01.prefab
+  artifactKey: Guid(70c062c3a7500e7479c9797b6190948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_Stand_01.prefab using Guid(70c062c3a7500e7479c9797b6190948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70feeb23c78beeb60400a73bff3a6cc9') in 0.049041 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
