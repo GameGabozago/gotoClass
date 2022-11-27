@@ -45,6 +45,8 @@ public class Player : MonoBehaviour
     bool isReload;
     bool isFireReady = true;
     bool isBorder;
+    bool isDamage;
+    MeshRenderer[] meshs;
 
     Vector3 moveVec;
     Vector3 dodgeVec;
@@ -61,6 +63,7 @@ public class Player : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
+        meshs = GetComponentsInChildren<MeshRenderer>();
     }
 
     void Update()
@@ -311,7 +314,8 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Item"){
+        if (other.tag == "Item"){
+            //Debug.Log("들어오나염?"); -> 잘 들어옴 .
             Item item = other.GetComponent<Item>();
             switch(item.type){
                 case Item.Type.Ammo:
@@ -339,7 +343,38 @@ public class Player : MonoBehaviour
                     
                     break;
             }
+            //StartCoroutine(OnDamage()); 실험용 -  ondamage는 이상이 없다 .
             Destroy(other.gameObject);
+        }
+        else if (other.tag == "EnemyBullet")
+        {
+            //Debug.Log("들어오나염?");
+            if (!isDamage)
+            {
+                //Debug.Log("들어오나염?");
+                Bullet enemyBullet = other.GetComponent<Bullet>();
+                health -= enemyBullet.damage;
+                StartCoroutine(OnDamage());
+            }
+        }
+    }
+
+    IEnumerator OnDamage()
+    {
+        isDamage = true;
+
+        foreach(MeshRenderer mesh in meshs)
+        {
+            mesh.material.color = Color.yellow;
+        }
+
+        yield return new WaitForSeconds(1f);
+
+        isDamage = false;
+
+        foreach(MeshRenderer mesh in meshs)
+        {
+            mesh.material.color = Color.white;
         }
     }
 
