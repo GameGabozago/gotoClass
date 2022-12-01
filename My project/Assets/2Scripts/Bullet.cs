@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public int damage;
+    //public bool IsMelee;
     
     void OnCollisionEnter(Collision collision)
     {
