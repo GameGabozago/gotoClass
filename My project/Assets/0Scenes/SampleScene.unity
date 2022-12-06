@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiGroup: {fileID: 318689040}
-  anim: {fileID: 0}
+  anim: {fileID: 1321294184}
   itemObj: []
   itemPrice: 
   itemPos: []
@@ -32050,7 +32050,7 @@ Animator:
   m_GameObject: {fileID: 1321294182}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3c58ba4c47d594e02ba6d6fd1db354c5, type: 2}
+  m_Controller: {fileID: 9100000, guid: c81ed3e5478453e4f8c3b8fadc9ca99b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
