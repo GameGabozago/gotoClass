@@ -40,9 +40,15 @@ public class GameManager : MonoBehaviour
     public RectTransform bossHealthBar;
 
 
+    public AudioSource titleBGM;
+    public AudioSource stageBGM;
+    public AudioSource storeBGM;
+
     void Awake()
     {
         maxScoreTxt.text = string.Format("{0:n0}", PlayerPrefs.GetInt("MaxScore"));
+
+        titleBGM.Play();
     }
 
     public void GameStart() 
@@ -54,6 +60,9 @@ public class GameManager : MonoBehaviour
         gamePanel.SetActive(true);
 
         player.gameObject.SetActive(true);
+
+        titleBGM.Stop();
+        storeBGM.Play();
     }
 
     void Update()
