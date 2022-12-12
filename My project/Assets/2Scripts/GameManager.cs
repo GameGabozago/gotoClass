@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Specialized;
 using System.Security.Cryptography;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class GameManager : MonoBehaviour
     public GameObject itemShop;
 	public GameObject weaponShop;
 	public GameObject startZone;
+
+    public GameObject mapClass;
+    public GameObject mapCafeteria;
+    public GameObject mapPc;
 
 	public int stage;
     public float playTime;
@@ -31,6 +36,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject menuPanel;
     public GameObject gamePanel;
+    public GameObject overPanel;
+    
     public TextMeshProUGUI maxScoreTxt;
     public TextMeshProUGUI scoreTxt;
     public TextMeshProUGUI stageTxt;
@@ -51,10 +58,14 @@ public class GameManager : MonoBehaviour
     public RectTransform bossHealthGroup;
     public RectTransform bossHealthBar;
 
+    public TextMeshProUGUI curScoreText;
+    public TextMeshProUGUI bestText;
 
     public AudioSource titleBGM;
     public AudioSource stageBGM;
     public AudioSource storeBGM;
+    public AudioSource bossBGM;
+    public AudioSource dieBGM;
 
     void Awake()
     {
@@ -63,6 +74,9 @@ public class GameManager : MonoBehaviour
         maxScoreTxt.text = string.Format("{0:n0}", PlayerPrefs.GetInt("MaxScore"));
 
         titleBGM.Play();
+
+        if(PlayerPrefs.HasKey("MaxScore"))
+            PlayerPrefs.SetInt("MaxScore", 0);
     }
 
     public void GameStart() 
@@ -75,9 +89,45 @@ public class GameManager : MonoBehaviour
 
         player.gameObject.SetActive(true);
 
+        mapClass.SetActive(false);
+        mapCafeteria.SetActive(false);
+        mapPc.SetActive(false);
+
         titleBGM.Stop();
+        stageBGM.Stop();
         storeBGM.Play();
+        bossBGM.Stop();
+        dieBGM.Stop();
     }
+
+    public void GameOver()
+    {
+        gamePanel.SetActive(false);
+        overPanel.SetActive(true);
+        curScoreText.text = scoreTxt.text;
+
+        int maxScore = PlayerPrefs.GetInt("MaxScore");
+        if(player.score > maxScore){
+            bestText.gameObject.SetActive(true);
+            PlayerPrefs.SetInt("MaxScore", player.score);
+        }
+
+        mapClass.SetActive(false);
+        mapCafeteria.SetActive(false);
+        mapPc.SetActive(false);
+
+        titleBGM.Stop();
+        stageBGM.Stop();
+        storeBGM.Stop();
+        bossBGM.Stop();
+        dieBGM.Play();
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 
     public void StageStart()
     {
@@ -85,10 +135,27 @@ public class GameManager : MonoBehaviour
         weaponShop.SetActive(false);
         startZone.SetActive(false);
 
+        stage++;
+
+        if (stage == 1){
+            mapClass.SetActive(true);
+            mapCafeteria.SetActive(false);
+            mapPc.SetActive(false);
+        }
+        else if (stage == 3){
+            mapClass.SetActive(false);
+            mapCafeteria.SetActive(true);
+            mapPc.SetActive(false);
+        }
+        else if (stage == 5){
+            mapClass.SetActive(false);
+            mapCafeteria.SetActive(false);
+            mapPc.SetActive(true);
+        }
+
+
         foreach (Transform zone in enemyZones)
             zone.gameObject.SetActive(true);
-
-
 
         isBattle = true;
         StartCoroutine(InBattle());
@@ -97,7 +164,9 @@ public class GameManager : MonoBehaviour
     public void StageEnd()
     {
         //이 부분이 에러나서 주석처리해둡니다. 플레이어 위치 초기화
-        player.transform.position = new Vector3(0, 1.24f, -5);
+        // => 책상 위치하고 겹쳐져서 그런것으로 보입니다. 책상 위치를 변경했습니다.
+        //player.transform.position = new Vector3(0, 1.24f, -5);
+        player.transform.position = Vector3.up * 0.8f;
 
 		itemShop.SetActive(true);
 		weaponShop.SetActive(true);
@@ -108,12 +177,18 @@ public class GameManager : MonoBehaviour
 
 		isBattle = false;
         stage++;
+        
+        titleBGM.Stop();
+        stageBGM.Stop();
+        storeBGM.Play();
+        bossBGM.Stop();
+        dieBGM.Stop();
     }
 
     IEnumerator InBattle()
     {
 		//스테이지가 5단위일때 보스 소환
-		if (stage % 5 == 0)
+		if (stage % 7 == 0)
 		{
             enemyCntD++;
 			GameObject instantEnemy = Instantiate(enemies[3], enemyZones[0].position, enemyZones[0].rotation);
@@ -121,9 +196,21 @@ public class GameManager : MonoBehaviour
 			enemy.target = player.transform;
             enemy.manager = this;
             boss = instantEnemy.GetComponent<Boss>();
+
+            titleBGM.Stop();
+            stageBGM.Stop();
+            storeBGM.Stop();
+            bossBGM.Play();
+            dieBGM.Stop();
 		}
 		else
 		{
+            titleBGM.Stop();
+            stageBGM.Play();
+            storeBGM.Stop();
+            bossBGM.Stop();
+            dieBGM.Stop();
+            
 			for (int index = 0; index < stage; index++)
 			{
 
@@ -179,7 +266,17 @@ public class GameManager : MonoBehaviour
     void LateUpdate()
     {
         scoreTxt.text = string.Format("{0:n0}", player.score);
-        stageTxt.text = "310관 " + stage + "층";
+        if (stage == 0){
+            stageTxt.text = "Front of Buiding 310";
+        }else if (stage == 1){
+            stageTxt.text = "Building 310 " + stage + "st floor";
+        }else if (stage == 2){
+            stageTxt.text = "Building 310 " + stage + "nd floor";
+        }else if (stage == 3){
+            stageTxt.text = "Building 310 " + stage + "rd floor";
+        }else{
+            stageTxt.text = "Building 310 " + stage + "th floor";
+        }
 
         int hour = (int)(playTime / 3600);
         int min = (int)((playTime - hour * 3600) / 60);

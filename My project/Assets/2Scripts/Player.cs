@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public int hasGrenade;
     public GameObject grenadeObj;
     public Camera followCamera;
-    //public GameManager manager;
+    public GameManager manager;
     
     public AudioSource jumpSound;
     public AudioSource swingSound;
@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         meshs = GetComponentsInChildren<MeshRenderer>();
 
-        // PlayerPrefs.SetInt("MaxScore", 0);
+        PlayerPrefs.SetInt("MaxScore", 0);
 
     }
 
@@ -414,7 +414,7 @@ public class Player : MonoBehaviour
     {
         anim.SetTrigger("doDie");
         isDead = true;
-        //manager.GameOver();
+        manager.GameOver();
     }
 
 
