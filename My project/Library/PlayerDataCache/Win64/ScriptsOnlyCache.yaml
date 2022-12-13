@@ -28,8 +28,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -80,33 +82,63 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Buy
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Buy
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Exit
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Buy
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Buy
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: GameStart
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Exit
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Restart
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Buy
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: Buy
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   sceneClasses:
     Assets/0Scenes/SampleScene.unity:
     - Class: 1
@@ -143,6 +175,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -156,59 +190,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 2268}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2364}
+      Script: {instanceID: 2366}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 3330}
     - Class: 114
-      Script: {instanceID: 3806}
+      Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 3924}
+      Script: {instanceID: 3926}
     - Class: 114
-      Script: {instanceID: 4104}
+      Script: {instanceID: 4106}
     - Class: 114
-      Script: {instanceID: 4442}
+      Script: {instanceID: 4444}
     - Class: 114
-      Script: {instanceID: 4728}
+      Script: {instanceID: 4730}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 4986}
     - Class: 114
-      Script: {instanceID: 5528}
+      Script: {instanceID: 5530}
     - Class: 114
-      Script: {instanceID: 5682}
+      Script: {instanceID: 5684}
     - Class: 114
-      Script: {instanceID: 5820}
+      Script: {instanceID: 5822}
     - Class: 114
-      Script: {instanceID: 6162}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 6320}
+      Script: {instanceID: 6322}
     - Class: 114
-      Script: {instanceID: 6432}
+      Script: {instanceID: 6434}
     - Class: 114
-      Script: {instanceID: 6508}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 6552}
+      Script: {instanceID: 6554}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 6676}
     - Class: 114
-      Script: {instanceID: 6686}
+      Script: {instanceID: 6688}
     - Class: 114
-      Script: {instanceID: 6898}
+      Script: {instanceID: 6900}
     - Class: 114
-      Script: {instanceID: 7152}
+      Script: {instanceID: 7154}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -312,7 +346,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f6c7143544a6425e4c2286d40340ee66
+      Hash: ca596f5ac5d36645091d95ebe4dfafd7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Boss
@@ -624,7 +658,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 025c0f35498982b71c3d951fb8cd2b56
+      Hash: 4d7fb8387256e1f82225c935babb33a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -1002,7 +1036,7 @@ ScriptsOnlyBuild:
     className: Follow
   - hash:
       serializedVersion: 2
-      Hash: 43d708d39b08373eb27719e314bc6bcc
+      Hash: 8c64c8e36897d5677c6d5beff0da5dd4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1333,4 +1367,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/0Scenes/SampleScene.unity
-  playerPath: C:/Users/YOONHA/GitHub/gotoClass_build/gotoClass.exe
+  playerPath: "C:/Users/\uAE40\uBBFC\uC218/Desktop/team/\uC0C8 \uD3F4\uB354/Go To
+    Class.exe"

@@ -67,6 +67,8 @@ public class GameManager : MonoBehaviour
     public AudioSource bossBGM;
     public AudioSource dieBGM;
 
+    public AudioSource StageClearSound;
+
     void Awake()
     {
         enemyList = new List<int>();
@@ -168,6 +170,8 @@ public class GameManager : MonoBehaviour
         //player.transform.position = new Vector3(0, 1.24f, -5);
         player.transform.position = Vector3.up * 0.8f;
 
+        StageClearSound.Play();
+
 		itemShop.SetActive(true);
 		weaponShop.SetActive(true);
 		startZone.SetActive(true);
@@ -247,6 +251,14 @@ public class GameManager : MonoBehaviour
 
         while (enemyCntA + enemyCntB + enemyCntC + enemyCntD > 0) //아직 못잡은 몬스터 남아있으면 while문
         {
+            if (enemyCntA < 0){
+                enemyCntA = 0;
+            }else if (enemyCntB < 0){
+                enemyCntB = 0;
+            }else if (enemyCntC < 0){
+                enemyCntC = 0;
+            }
+
             yield return null;
         }
 

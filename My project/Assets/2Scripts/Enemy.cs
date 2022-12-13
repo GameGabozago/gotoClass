@@ -28,6 +28,9 @@ public class Enemy : MonoBehaviour
 	public NavMeshAgent nav;
 	public Animator anim;
 
+	public AudioSource missileSound;
+	public AudioSource biteSound;
+
     bool isDamaged;
 
 	void Awake()
@@ -117,6 +120,7 @@ public class Enemy : MonoBehaviour
 			case Type.A:
 				yield return new WaitForSeconds(0.2f);
 				meleeArea.enabled = true;
+				biteSound.Play();
 
 				yield return new WaitForSeconds(1f);
 				meleeArea.enabled = false;
@@ -127,6 +131,7 @@ public class Enemy : MonoBehaviour
 				yield return new WaitForSeconds(0.1f);
 				rigid.AddForce(transform.forward * 20, ForceMode.Impulse);
 				meleeArea.enabled = true;
+				biteSound.Play();
 
 				yield return new WaitForSeconds(0.5f);
 				rigid.velocity = Vector3.zero;
@@ -139,7 +144,7 @@ public class Enemy : MonoBehaviour
 				GameObject instantBullet = Instantiate(bullet, transform.position, transform.rotation);
 				Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
 				rigidBullet.velocity = transform.forward * 20;
-
+				missileSound.Play();
 				yield return new WaitForSeconds(2f);
 				break;
 		}
@@ -162,8 +167,9 @@ public class Enemy : MonoBehaviour
 			curHealth -= weapon.damage;
 			Vector3 reactVec = transform.position - other.transform.position;
 			Destroy(other.gameObject);
+		if (isDamaged == false){
 			StartCoroutine(OnDamage(reactVec, false));
-
+		}
 			//Debug.Log("Melee : " + curHealth);
 
 		}
@@ -173,8 +179,9 @@ public class Enemy : MonoBehaviour
 			curHealth -= bullet.damage;
 			Vector3 reactVec = transform.position - other.transform.position;
 			Destroy(other.gameObject);
+		if (isDamaged == false){
 			StartCoroutine(OnDamage(reactVec, false));
-
+		}
 			//Debug.Log("Range : " + curHealth);
 		}
 	}
@@ -183,85 +190,85 @@ public class Enemy : MonoBehaviour
 	{
 		curHealth -= 100;
 		Vector3 reactVec = transform.position - explosionPos;
-		StartCoroutine(OnDamage(reactVec, true));
+		if (isDamaged == false){
+			StartCoroutine(OnDamage(reactVec, true));
+		}
 
 	}
 
 	IEnumerator OnDamage(Vector3 reactVec, bool isGrenade)
 	{
-		if (isDamaged == false){
-			isDamaged = true;
-				
+		isDamaged = true;
+			
+		foreach (MeshRenderer mesh in meshs)
+			mesh.material.color = Color.red;
+
+		yield return new WaitForSeconds(0.1f);
+
+		if (curHealth > 0)
+		{
 			foreach (MeshRenderer mesh in meshs)
-				mesh.material.color = Color.red;
+				mesh.material.color = Color.white;
+		}
+		else
+		{
+			foreach (MeshRenderer mesh in meshs)
+				mesh.material.color = Color.gray;
 
-			yield return new WaitForSeconds(0.1f);
+			gameObject.layer = 14;
+			isDead = true;
+			isChase = false;
+			nav.enabled = false;
 
-			if (curHealth > 0)
+			anim.SetTrigger("doDie");
+
+			Player player=target.GetComponent<Player>();
+			player.score += score;
+
+			int ranCoin = UnityEngine.Random.Range(0, 3);
+			Instantiate(coins[ranCoin], transform.position, Quaternion.identity);
+
+			switch (enemyType)
 			{
-				foreach (MeshRenderer mesh in meshs)
-					mesh.material.color = Color.white;
+				case Type.A:
+					manager.enemyCntA--;
+					break;
+				case Type.B:
+					manager.enemyCntB--;
+					break;
+				case Type.C:
+					manager.enemyCntC--;
+					break;
+				case Type.D:
+					manager.enemyCntD--;
+					break;
+			}
+
+			anim.SetTrigger("doDie");
+
+			if (isGrenade)
+			{
+				reactVec = reactVec.normalized;
+				reactVec += Vector3.up * 3;
+
+				rigid.freezeRotation = false;
+				rigid.AddForce(reactVec * 5, ForceMode.Impulse);
+				rigid.AddTorque(reactVec * 15, ForceMode.Impulse);
 			}
 			else
 			{
-				foreach (MeshRenderer mesh in meshs)
-					mesh.material.color = Color.gray;
-
-				gameObject.layer = 14;
-				isDead = true;
-				isChase = false;
-				nav.enabled = false;
-
-				anim.SetTrigger("doDie");
-
-				Player player=target.GetComponent<Player>();
-				player.score += score;
-
-				int ranCoin = UnityEngine.Random.Range(0, 3);
-				Instantiate(coins[ranCoin], transform.position, Quaternion.identity);
-
-				switch (enemyType)
-				{
-					case Type.A:
-						manager.enemyCntA--;
-						break;
-					case Type.B:
-						manager.enemyCntB--;
-						break;
-					case Type.C:
-						manager.enemyCntC--;
-						break;
-					case Type.D:
-						manager.enemyCntD--;
-						break;
-				}
-
-				anim.SetTrigger("doDie");
-
-				if (isGrenade)
-				{
-					reactVec = reactVec.normalized;
-					reactVec += Vector3.up * 3;
-
-					rigid.freezeRotation = false;
-					rigid.AddForce(reactVec * 5, ForceMode.Impulse);
-					rigid.AddTorque(reactVec * 15, ForceMode.Impulse);
-				}
-				else
-				{
-					reactVec = reactVec.normalized;
-					reactVec += Vector3.up;
-					rigid.AddForce(reactVec * 5, ForceMode.Impulse);
-				}
-
-				Destroy(gameObject, 4);
-				/*if (enemyType != Type.D)
-				{
-					Destroy(gameObject, 4);
-				}*/
-
+				reactVec = reactVec.normalized;
+				reactVec += Vector3.up;
+				rigid.AddForce(reactVec * 5, ForceMode.Impulse);
 			}
-            isDamaged = false;
+
+			Destroy(gameObject, 4);
+			/*if (enemyType != Type.D)
+			{
+				Destroy(gameObject, 4);
+			}*/
+
 		}
+		isDamaged = false;
 	}
 }

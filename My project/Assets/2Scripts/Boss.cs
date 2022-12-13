@@ -10,6 +10,9 @@ public class Boss : Enemy
     public Transform missilePortB;
     public bool isLook;
 
+    public AudioSource rockSound;
+    public AudioSource tauntSound;
+
     Vector3 lookVec;
     Vector3 tauntVec; 
 
@@ -36,7 +39,7 @@ public class Boss : Enemy
 
         if (isLook)
         {
-            //ÇÃ·¹ÀÌ¾î ÀÔ·Â°ªÀ¸·Î ¿¹Ãø º¤ÅÍ°ª »ý¼º
+            //ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½Ô·Â°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ï¿½ï¿½
             float h = Input.GetAxisRaw("Horizontal");
             float v = Input.GetAxisRaw("Vertical");
             lookVec = new Vector3(h, 0, v) * 5f;
@@ -50,23 +53,23 @@ public class Boss : Enemy
 
     IEnumerator Think()
     {
-        yield return new WaitForSeconds(0.1f); //ÀÌ°Ô ±æ¾îÁö¸é º¸½º ÆÐÅÏÀÌ ½¬¿öÁü
+        yield return new WaitForSeconds(0.1f); //ï¿½Ì°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
         int ranAction = Random.Range(0, 5);
         switch (ranAction)
         {
             case 0:
             case 1:
-                //¹Ì»çÀÏ ¹ß»ç ÆÐÅÏ
+                //ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ ï¿½ï¿½ï¿½ï¿½
                 StartCoroutine(MissileShot());
                 break;
             case 2:
             case 3:
-                //µ¹ ±¼·¯°¡´Â ÆÐÅÏ
+                //ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 StartCoroutine(RockShot());
                 break;
             case 4:
-                //Á¡ÇÁ °ø°Ý ÆÐÅÏ
+                //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 StartCoroutine(Taunt());
                 break;
         }
@@ -74,26 +77,27 @@ public class Boss : Enemy
 
     IEnumerator MissileShot()
     {
-        anim.SetTrigger("doShot"); //°¢ ÆÐÅÏ¿¡ ¸Â´Â ¾Ö´Ï¸ÞÀÌ¼ÇÀ» SetTrigger() ÇÔ¼ö·Î ½ÇÇà
+        anim.SetTrigger("doShot"); //ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½Â´ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ï¿½ï¿½ SetTrigger() ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         yield return new WaitForSeconds(0.2f);
-        GameObject instantMissileA = Instantiate(missile, missilePortA.position, missilePortA.rotation); //¹Ì»çÀÏ »ý¼º
+        GameObject instantMissileA = Instantiate(missile, missilePortA.position, missilePortA.rotation); //ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         BossMissile bossMissileA = instantMissileA.GetComponent<BossMissile>();
         bossMissileA.target = target;
-
-        yield return new WaitForSeconds(0.3f); //0.5ÃÊ µÚ ÇÑ¹ß ´õ ³ª°¨
-        GameObject instantMissileB = Instantiate(missile, missilePortB.position, missilePortB.rotation); //¹Ì»çÀÏ »ý¼º
+        missileSound.Play();
+        yield return new WaitForSeconds(0.3f); //0.5ï¿½ï¿½ ï¿½ï¿½ ï¿½Ñ¹ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        GameObject instantMissileB = Instantiate(missile, missilePortB.position, missilePortB.rotation); //ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         BossMissile bossMissileB = instantMissileB.GetComponent<BossMissile>();
         bossMissileB.target = target;
-
+        missileSound.Play();
         yield return new WaitForSeconds(2.5f);
 
-        StartCoroutine(Think()); // ÆÐÅÏÀÌ ³¡³ª¸é ´ÙÀ½ ÆÐÅÏÀ» À§ÇØ ´Ù½Ã Think() ÄÚ·çÆ¾ ½ÇÇà
+        StartCoroutine(Think()); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ Think() ï¿½Ú·ï¿½Æ¾ ï¿½ï¿½ï¿½ï¿½
     }
 
     IEnumerator RockShot()
     {
         isLook = false;
         anim.SetTrigger("doBigShot");
+        rockSound.Play();
         Instantiate(bullet, transform.position, transform.rotation);
         yield return new WaitForSeconds(3f);
 
@@ -104,6 +108,8 @@ public class Boss : Enemy
     IEnumerator Taunt()
     {
         tauntVec = target.position + lookVec;
+
+        tauntSound.Play();
 
         isLook = false;
         nav.isStopped = false;
