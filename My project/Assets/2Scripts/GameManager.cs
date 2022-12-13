@@ -251,14 +251,6 @@ public class GameManager : MonoBehaviour
 
         while (enemyCntA + enemyCntB + enemyCntC + enemyCntD > 0) //아직 못잡은 몬스터 남아있으면 while문
         {
-            if (enemyCntA < 0){
-                enemyCntA = 0;
-            }else if (enemyCntB < 0){
-                enemyCntB = 0;
-            }else if (enemyCntC < 0){
-                enemyCntC = 0;
-            }
-
             yield return null;
         }
 
@@ -308,6 +300,15 @@ public class GameManager : MonoBehaviour
         weapon2Img.color = new Color(1,1,1,player.hasWeapons[1] ? 1 : 0);
         weapon3Img.color = new Color(1,1,1,player.hasWeapons[2] ? 1 : 0);
         weaponRImg.color = new Color(1,1,1,player.hasGrenade > 0 ? 1 : 0);
+
+
+        if (enemyCntA < 0){
+            enemyCntA = 0;
+        }else if (enemyCntB < 0){
+            enemyCntB = 0;
+        }else if (enemyCntC < 0){
+            enemyCntC = 0;
+        }
 
         enemyATxt.text = enemyCntA.ToString();
         enemyBTxt.text = enemyCntB.ToString();

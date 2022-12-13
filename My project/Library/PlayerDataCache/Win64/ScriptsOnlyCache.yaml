@@ -28,10 +28,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -188,7 +186,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1606}
     - Class: 114
       Script: {instanceID: 2270}
     - Class: 114
@@ -1367,5 +1365,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/0Scenes/SampleScene.unity
-  playerPath: "C:/Users/\uAE40\uBBFC\uC218/Desktop/team/\uC0C8 \uD3F4\uB354/Go To
-    Class.exe"
+  playerPath: "C:/Users/\uAE40\uBBFC\uC218/Desktop/team/\uC0C8 \uD3F4\uB354/Build/Go
+    To Class.exe"
