@@ -126,11 +126,13 @@ MonoBehaviour:
   nav: {fileID: 6842182072497132008}
   anim: {fileID: 6842182071323525133}
   missileSound: {fileID: 8015478725299830168}
+  biteSound: {fileID: 0}
   missile: {fileID: 1465662672202449305, guid: 68c66b8e9ea8eb74ea117dbf1c581641, type: 3}
   missilePortA: {fileID: 6842182071561787314}
   missilePortB: {fileID: 6842182071377690610}
   isLook: 1
   rockSound: {fileID: 2640718862516839169}
+  tauntSound: {fileID: 2918512887503871650}
 --- !u!1 &4239380749690735338
 GameObject:
   m_ObjectHideFlags: 0
