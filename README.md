@@ -1,6 +1,9 @@
 # gotoClass
 2022년 2학기 게임설계 팀플
 
+Demo video : https://www.youtube.com/watch?v=dOBkDcyHjV4
+
+
 ![슬라이드1](https://user-images.githubusercontent.com/55645090/232370009-fc0c2e29-d638-4b6f-a6c9-231bf30f4c25.JPG)
 ![슬라이드2](https://user-images.githubusercontent.com/55645090/232370368-72cd5d5e-87d5-4bef-a012-1671d09ba51c.JPG)
 ![슬라이드3](https://user-images.githubusercontent.com/55645090/232370371-8c34f08e-93c6-4262-b91b-0891e6b3cc8d.JPG)
@@ -26,5 +29,4 @@
 ![슬라이드23](https://user-images.githubusercontent.com/55645090/232370621-16afad42-5555-4cba-ab16-6c5ae0da67f2.JPG)
 ![슬라이드24](https://user-images.githubusercontent.com/55645090/232370626-e7c394ad-cedf-48af-aaec-0c3b25717540.JPG)
 ![슬라이드25](https://user-images.githubusercontent.com/55645090/232370628-0fbbdcb9-5064-4338-91ca-38e084b5e2e1.JPG)
-![슬라이드26](https://user-images.githubusercontent.com/55645090/232370634-4222435b-e770-4660-8044-6d1d01ddf135.JPG)
 ![슬라이드27](https://user-images.githubusercontent.com/55645090/232370640-5860adfd-4fbd-4e6b-9299-3ab6c9708b97.JPG)
